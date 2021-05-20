@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Genius - Free Bootstrap 4 Template by Colorlib</title>
+    <title>Government Polytechnic College, Thane</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-
+    <link href="images/logo.jpg" rel="icon">
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
     
@@ -30,7 +30,7 @@
     
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.php"><i class="flaticon-university"></i>Genius <br><small>University</small></a>
+      <a class="navbar-brand" href="index.php"><i class="flaticon-university"></i>Government Polytechnic College <br><small>Thane</small></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
@@ -71,9 +71,9 @@
     				<div class="img img-about align-self-stretch" style="background-image: url(images/bg_3.jpg); width: 100%;"></div>
     			</div>
     			<div class="col-md-6 pl-md-5 ftco-animate">
-    				<h2 class="mb-4">Welcome to Genius University Stablished Since 1898</h2>
-    				<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-    				<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
+    				<h2 class="mb-4">Welcome to Government Polytechnic College, Thane Established in 1985</h2>
+    				<p>Government Polytechnic Thane is one of the oldest polytechnic established in Mumbai region in 1985. The Institute belongs to Government of Maharashtra & under the governance of the Director of Technical education (M.S.) Mumbai.The Institute is affiliated to Maharashtra State Board of Technical Education (MSBTE). The Institute is a co-education institute responsible for imparting industry-responsive Diploma level programs in the field of Engineering, technology & professional education to the Students admitted as per norms stipulated by Government of Maharashtra.</p>
+    				<p>The institute is much closer to Industrial area within the developing community. Well established infrastructure facilities are key factors for positive performance. Faculty members are well qualified and capable of conducting continuing educational program for the Industriesand the other Organizations.</p>
     			</div>
     		</div>
     	</div>
@@ -84,7 +84,7 @@
     	<div class="container">
     		<div class="row d-md-flex justify-content-center">
     			<div class="col-md-9 about-video text-center">
-    				<h2 class="ftco-animate">Genius University is a Leading Schools Around the World</h2>
+    				<h2 class="ftco-animate">Government Polytechnic College, Thane is a Leading College in India</h2>
     				<div class="video d-flex justify-content-center">
     					<a href="https://vimeo.com/45830194" class="button popup-vimeo d-flex justify-content-center align-items-center"><span class="ion-ios-play"></span></a>
     				</div>
@@ -236,7 +236,7 @@
         <div class="row mb-5">
           <div class="col-md-3">
             <div class="ftco-footer-widget mb-4">
-              <h2><a class="navbar-brand" href="index.php"><i class="flaticon-university"></i>Genius <br><small>University</small></a></h2>
+              <h2><a class="navbar-brand" href="index.php"><i class="flaticon-university"></i>Government Polytechnic College <br><small>University</small></a></h2>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
