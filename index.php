@@ -30,21 +30,21 @@
     
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.html"><i class="flaticon-university"></i>Genius <br><small>University</small></a>
+      <a class="navbar-brand" href="index.php"><i class="flaticon-university"></i>Genius <br><small>University</small></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
 
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="course.html" class="nav-link">Courses</a></li>
-          <li class="nav-item"><a href="teacher.html" class="nav-link">Teacher</a></li>
-          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-          <li class="nav-item"><a href="event.html" class="nav-link">Events</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-          <li class="nav-item cta"><a href="contact.html" class="nav-link"><span>Apply Now!</span></a></li>
+          <li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="course.php" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="teacher.php" class="nav-link">Teacher</a></li>
+          <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>
+          <li class="nav-item"><a href="event.php" class="nav-link">Events</a></li>
+          <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
+          <li class="nav-item cta"><a href="contact.php" class="nav-link"><span>Apply Now!</span></a></li>
         </ul>
       </div>
     </div>
@@ -278,7 +278,7 @@
         			<div class="d-flex mb-4">
         				<div class="img" style="background-image: url(images/person_1.jpg);"></div>
         				<div class="info ml-4">
-        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
+        					<h3><a href="teacher-single.php">Ivan Jacobson</a></h3>
         					<span class="position">CSE Teacher</span>
         					<p class="ftco-social d-flex">
 		                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
@@ -297,7 +297,7 @@
         			<div class="d-flex mb-4">
         				<div class="img" style="background-image: url(images/person_2.jpg);"></div>
         				<div class="info ml-4">
-        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
+        					<h3><a href="teacher-single.php">Ivan Jacobson</a></h3>
         					<span class="position">CSE Teacher</span>
         					<p class="ftco-social d-flex">
 		                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
@@ -316,7 +316,7 @@
         			<div class="d-flex mb-4">
         				<div class="img" style="background-image: url(images/person_3.jpg);"></div>
         				<div class="info ml-4">
-        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
+        					<h3><a href="teacher-single.php">Ivan Jacobson</a></h3>
         					<span class="position">CSE Teacher</span>
         					<p class="ftco-social d-flex">
 		                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
@@ -397,7 +397,7 @@
     		<div class="row justify-content-center mt-5">
         	<div class="col-md-10 ftco-animate">
         		<p><strong>When she reached</strong> the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
-        		<p><span>Just Browsing?</span><a href="course.html"> View All Courses</a></p>
+        		<p><span>Just Browsing?</span><a href="course.php"> View All Courses</a></p>
         	</div>
         </div>
     	</div>
@@ -413,7 +413,7 @@
         <div class="row d-flex">
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+              <a href="blog-single.php" class="block-20" style="background-image: url('images/image_1.jpg');">
               </a>
               <div class="text p-4 d-block">
               	<div class="meta mb-3">
@@ -428,7 +428,7 @@
           </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+              <a href="blog-single.php" class="block-20" style="background-image: url('images/image_2.jpg');">
               </a>
               <div class="text p-4 d-block">
               	<div class="meta mb-3">
@@ -443,7 +443,7 @@
           </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+              <a href="blog-single.php" class="block-20" style="background-image: url('images/image_3.jpg');">
               </a>
               <div class="text p-4 d-block">
               	<div class="meta mb-3">
@@ -470,7 +470,7 @@
         <div class="row">
         	<div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/event-1.jpg');">
+              <a href="blog-single.php" class="block-20" style="background-image: url('images/event-1.jpg');">
               </a>
               <div class="text p-4 d-block">
               	<div class="meta mb-3">
@@ -481,13 +481,13 @@
                 <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
                 <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
+                <p><a href="event.php">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
               </div>
             </div>
           </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry d-flex align-self-stretch flex-column-reverse">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/event-2.jpg');">
+              <a href="blog-single.php" class="block-20" style="background-image: url('images/event-2.jpg');">
               </a>
               <div class="text p-4 d-block">
               	<div class="meta mb-3">
@@ -498,13 +498,13 @@
                 <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
                 <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
+                <p><a href="event.php">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
               </div>
             </div>
           </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/event-3.jpg');">
+              <a href="blog-single.php" class="block-20" style="background-image: url('images/event-3.jpg');">
               </a>
               <div class="text p-4 d-block">
               	<div class="meta mb-3">
@@ -515,7 +515,7 @@
                 <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
                 <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
+                <p><a href="event.php">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
               </div>
             </div>
           </div>
@@ -552,7 +552,7 @@
         <div class="row mb-5">
           <div class="col-md-3">
             <div class="ftco-footer-widget mb-4">
-              <h2><a class="navbar-brand" href="index.html"><i class="flaticon-university"></i>Genius <br><small>University</small></a></h2>
+              <h2><a class="navbar-brand" href="index.php"><i class="flaticon-university"></i>Genius <br><small>University</small></a></h2>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>

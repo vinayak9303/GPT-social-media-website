@@ -30,21 +30,21 @@
     
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.html"><i class="flaticon-university"></i>Genius <br><small>University</small></a>
+      <a class="navbar-brand" href="index.php"><i class="flaticon-university"></i>Genius <br><small>University</small></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
 
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-          <li class="nav-item active"><a href="about.html" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="course.html" class="nav-link">Courses</a></li>
-          <li class="nav-item"><a href="teacher.html" class="nav-link">Teacher</a></li>
-          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-          <li class="nav-item"><a href="event.html" class="nav-link">Events</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-          <li class="nav-item cta"><a href="contact.html" class="nav-link"><span>Apply Now!</span></a></li>
+          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
+          <li class="nav-item active"><a href="course.php" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="teacher.php" class="nav-link">Teacher</a></li>
+          <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>
+          <li class="nav-item"><a href="event.php" class="nav-link">Events</a></li>
+          <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
+          <li class="nav-item cta"><a href="contact.php" class="nav-link"><span>Apply Now!</span></a></li>
         </ul>
       </div>
     </div>
@@ -56,155 +56,99 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-8 ftco-animate text-center">
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>About</span></p>
-            <h1 class="mb-3 bread">About</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home</a></span> <span>Course</span></p>
+            <h1 class="mb-3 bread">Courses</h1>
           </div>
         </div>
       </div>
     </div>
 
-
     <section class="ftco-section">
     	<div class="container">
-    		<div class="row d-flex">
-    			<div class="col-md-6 d-flex ftco-animate">
-    				<div class="img img-about align-self-stretch" style="background-image: url(images/bg_3.jpg); width: 100%;"></div>
+    		<div class="row">
+    			<div class="col-md-4 d-flex ftco-animate">
+    				<div class="course align-self-stretch">
+    					<a href="#" class="img" style="background-image: url(images/course-1.jpg)"></a>
+    					<div class="text p-4">
+    						<p class="category"><span>English</span> <span class="price">$250</span></p>
+    						<h3 class="mb-3"><a href="#">English for Tommorow</a></h3>
+    						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
+    						<p><a href="#" class="btn btn-primary">Enroll now!</a></p>
+    					</div>
+    				</div>
     			</div>
-    			<div class="col-md-6 pl-md-5 ftco-animate">
-    				<h2 class="mb-4">Welcome to Genius University Stablished Since 1898</h2>
-    				<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-    				<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
+    			<div class="col-md-4 d-flex ftco-animate">
+    				<div class="course align-self-stretch">
+    					<a href="#" class="img" style="background-image: url(images/course-2.jpg)"></a>
+    					<div class="text p-4">
+    						<p class="category"><span>Science</span> <span class="price">$250</span></p>
+    						<h3 class="mb-3"><a href="#">Computer Engineering</a></h3>
+    						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
+    						<p><a href="#" class="btn btn-primary">Enroll now!</a></p>
+    					</div>
+    				</div>
     			</div>
-    		</div>
-    	</div>
-    </section>
-
-    <section class="ftco-section-3 img" style="background-image: url(images/bg_3.jpg);">
-    	<div class="overlay"></div>
-    	<div class="container">
-    		<div class="row d-md-flex justify-content-center">
-    			<div class="col-md-9 about-video text-center">
-    				<h2 class="ftco-animate">Genius University is a Leading Schools Around the World</h2>
-    				<div class="video d-flex justify-content-center">
-    					<a href="https://vimeo.com/45830194" class="button popup-vimeo d-flex justify-content-center align-items-center"><span class="ion-ios-play"></span></a>
+    			<div class="col-md-4 d-flex ftco-animate">
+    				<div class="course align-self-stretch">
+    					<a href="#" class="img" style="background-image: url(images/course-3.jpg)"></a>
+    					<div class="text p-4">
+    						<p class="category"><span>Business</span> <span class="price">$250</span></p>
+    						<h3 class="mb-3"><a href="#">Business Studies</a></h3>
+    						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
+    						<p><a href="#" class="btn btn-primary">Enroll now!</a></p>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-md-4 d-flex ftco-animate">
+    				<div class="course align-self-stretch">
+    					<a href="#" class="img" style="background-image: url(images/course-4.jpg)"></a>
+    					<div class="text p-4">
+    						<p class="category"><span>English</span> <span class="price">$250</span></p>
+    						<h3 class="mb-3"><a href="#">English for Tommorow</a></h3>
+    						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
+    						<p><a href="#" class="btn btn-primary">Enroll now!</a></p>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-md-4 d-flex ftco-animate">
+    				<div class="course align-self-stretch">
+    					<a href="#" class="img" style="background-image: url(images/course-5.jpg)"></a>
+    					<div class="text p-4">
+    						<p class="category"><span>Science</span> <span class="price">$250</span></p>
+    						<h3 class="mb-3"><a href="#">Computer Engineering</a></h3>
+    						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
+    						<p><a href="#" class="btn btn-primary">Enroll now!</a></p>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-md-4 d-flex ftco-animate">
+    				<div class="course align-self-stretch">
+    					<a href="#" class="img" style="background-image: url(images/course-6.jpg)"></a>
+    					<div class="text p-4">
+    						<p class="category"><span>Business</span> <span class="price">$250</span></p>
+    						<h3 class="mb-3"><a href="#">Business Studies</a></h3>
+    						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
+    						<p><a href="#" class="btn btn-primary">Enroll now!</a></p>
+    					</div>
     				</div>
     			</div>
     		</div>
-    	</div>
-    </section>
-    <section class="ftco-counter bg-light" id="section-counter">
-    	<div class="container">
-    		<div class="row justify-content-center">
-    			<div class="col-md-10">
-		    		<div class="row">
-		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18 text-center">
-		              <div class="text">
-		                <strong class="number" data-number="10300">0</strong>
-		                <span>Satisfied Students</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18 text-center">
-		              <div class="text">
-		                <strong class="number" data-number="7896">0</strong>
-		                <span>Courses Completed</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18 text-center">
-		              <div class="text">
-		                <strong class="number" data-number="400">0</strong>
-		                <span>Experts Advisors</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18 text-center">
-		              <div class="text">
-		                <strong class="number" data-number="200">0</strong>
-		                <span>Schools</span>
-		              </div>
-		            </div>
-		          </div>
-		        </div>
-	        </div>
-        </div>
-    	</div>
-    </section>
-
-    <section class="ftco-section testimony-section">
-      <div class="container">
-      	<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section ftco-animate text-center">
-            <h2 class="mb-4">What Our Student Says</h2>
-          </div>
-        </div>
-        <div class="row">
-        	<div class="col-md-12 ftco-animate">
-            <div class="carousel-testimony owl-carousel">
-              <div class="item">
-                <div class="testimony-wrap text-center">
-                  <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">CSE Student</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap text-center">
-                  <div class="user-img mb-5" style="background-image: url(images/person_2.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">Math Student</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap text-center">
-                  <div class="user-img mb-5" style="background-image: url(images/person_3.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">Science Students</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap text-center">
-                  <div class="user-img mb-5" style="background-image: url(images/person_3.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">English Student</span>
-                  </div>
-                </div>
-              </div>
+    		<div class="row mt-5">
+          <div class="col text-center">
+            <div class="block-27">
+              <ul>
+                <li><a href="#">&lt;</a></li>
+                <li class="active"><span>1</span></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&gt;</a></li>
+              </ul>
             </div>
           </div>
         </div>
-      </div>
+    	</div>
     </section>
 		
 		<section class="ftco-section-parallax">
@@ -236,7 +180,7 @@
         <div class="row mb-5">
           <div class="col-md-3">
             <div class="ftco-footer-widget mb-4">
-              <h2><a class="navbar-brand" href="index.html"><i class="flaticon-university"></i>Genius <br><small>University</small></a></h2>
+              <h2><a class="navbar-brand" href="index.php"><i class="flaticon-university"></i>Genius <br><small>University</small></a></h2>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>

@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
-
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/ionicons.min.css">
@@ -30,21 +29,21 @@
     
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.html"><i class="flaticon-university"></i>Genius <br><small>University</small></a>
+      <a class="navbar-brand" href="index.php"><i class="flaticon-university"></i>Genius <br><small>University</small></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
 
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="course.html" class="nav-link">Courses</a></li>
-          <li class="nav-item active"><a href="teacher.html" class="nav-link">Teacher</a></li>
-          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-          <li class="nav-item"><a href="event.html" class="nav-link">Events</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-          <li class="nav-item cta"><a href="contact.html" class="nav-link"><span>Apply Now!</span></a></li>
+          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="course.php" class="nav-link">Courses</a></li>
+          <li class="nav-item active"><a href="teacher.php" class="nav-link">Teacher</a></li>
+          <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>
+          <li class="nav-item"><a href="event.php" class="nav-link">Events</a></li>
+          <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
+          <li class="nav-item cta"><a href="contact.php" class="nav-link"><span>Apply Now!</span></a></li>
         </ul>
       </div>
     </div>
@@ -56,7 +55,7 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-8 ftco-animate text-center">
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Teacher</span></p>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home</a></span> <span>Teacher</span></p>
             <h1 class="mb-3 bread">Teacher</h1>
           </div>
         </div>
@@ -76,7 +75,7 @@
         			<div class="d-flex mb-4">
         				<div class="img" style="background-image: url(images/person_1.jpg);"></div>
         				<div class="info ml-4">
-        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
+        					<h3><a href="teacher-single.php">Ivan Jacobson</a></h3>
         					<span class="position">CSE Teacher</span>
         					<p class="ftco-social d-flex">
 		                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
@@ -95,7 +94,7 @@
         			<div class="d-flex mb-4">
         				<div class="img" style="background-image: url(images/person_2.jpg);"></div>
         				<div class="info ml-4">
-        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
+        					<h3><a href="teacher-single.php">Ivan Jacobson</a></h3>
         					<span class="position">CSE Teacher</span>
         					<p class="ftco-social d-flex">
 		                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
@@ -114,7 +113,7 @@
         			<div class="d-flex mb-4">
         				<div class="img" style="background-image: url(images/person_3.jpg);"></div>
         				<div class="info ml-4">
-        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
+        					<h3><a href="teacher-single.php">Ivan Jacobson</a></h3>
         					<span class="position">CSE Teacher</span>
         					<p class="ftco-social d-flex">
 		                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
@@ -133,7 +132,7 @@
         			<div class="d-flex mb-4">
         				<div class="img" style="background-image: url(images/person_4.jpg);"></div>
         				<div class="info ml-4">
-        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
+        					<h3><a href="teacher-single.php">Ivan Jacobson</a></h3>
         					<span class="position">CSE Teacher</span>
         					<p class="ftco-social d-flex">
 		                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
@@ -152,7 +151,7 @@
         			<div class="d-flex mb-4">
         				<div class="img" style="background-image: url(images/person_5.jpg);"></div>
         				<div class="info ml-4">
-        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
+        					<h3><a href="teacher-single.php">Ivan Jacobson</a></h3>
         					<span class="position">CSE Teacher</span>
         					<p class="ftco-social d-flex">
 		                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
@@ -171,7 +170,7 @@
         			<div class="d-flex mb-4">
         				<div class="img" style="background-image: url(images/person_6.jpg);"></div>
         				<div class="info ml-4">
-        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
+        					<h3><a href="teacher-single.php">Ivan Jacobson</a></h3>
         					<span class="position">CSE Teacher</span>
         					<p class="ftco-social d-flex">
 		                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
@@ -190,7 +189,7 @@
         			<div class="d-flex mb-4">
         				<div class="img" style="background-image: url(images/person_7.jpg);"></div>
         				<div class="info ml-4">
-        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
+        					<h3><a href="teacher-single.php">Ivan Jacobson</a></h3>
         					<span class="position">CSE Teacher</span>
         					<p class="ftco-social d-flex">
 		                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
@@ -209,7 +208,7 @@
         			<div class="d-flex mb-4">
         				<div class="img" style="background-image: url(images/person_8.jpg);"></div>
         				<div class="info ml-4">
-        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
+        					<h3><a href="teacher-single.php">Ivan Jacobson</a></h3>
         					<span class="position">CSE Teacher</span>
         					<p class="ftco-social d-flex">
 		                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
@@ -228,7 +227,7 @@
         			<div class="d-flex mb-4">
         				<div class="img" style="background-image: url(images/person_9.jpg);"></div>
         				<div class="info ml-4">
-        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
+        					<h3><a href="teacher-single.php">Ivan Jacobson</a></h3>
         					<span class="position">CSE Teacher</span>
         					<p class="ftco-social d-flex">
 		                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
@@ -275,7 +274,7 @@
         <div class="row mb-5">
           <div class="col-md-3">
             <div class="ftco-footer-widget mb-4">
-              <h2><a class="navbar-brand" href="index.html"><i class="flaticon-university"></i>Genius <br><small>University</small></a></h2>
+              <h2><a class="navbar-brand" href="index.php"><i class="flaticon-university"></i>Genius <br><small>University</small></a></h2>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
