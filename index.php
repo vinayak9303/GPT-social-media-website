@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Government Polytechnic College, Thane</title>
+    <title> GPT | Home</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -30,7 +30,7 @@
     
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.php"><i class="flaticon-university"></i>Government Polytechnic College <br><small>Thane</small></a>
+      <a class="navbar-brand" href="index.php"><i class="flaticon-university"></i> G P Thane</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
@@ -41,7 +41,6 @@
           <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
           <li class="nav-item"><a href="course.php" class="nav-link">Courses</a></li>
           <li class="nav-item"><a href="teacher.php" class="nav-link">Teacher</a></li>
-          <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>
           <li class="nav-item"><a href="event.php" class="nav-link">Events</a></li>
           <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
           <li class="nav-item cta"><a href="contact.php" class="nav-link"><span>Apply Now!</span></a></li>
@@ -57,7 +56,7 @@
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-8 ftco-animate text-center">
             <h1 class="mb-4">No Nation Can Prosper In Life Without Education</h1>
-            <p><a href="#" class="btn btn-primary px-4 py-3">Apply Now</a> <a href="#" class="btn btn-secondary px-4 py-3">View Courses</a></p>
+            <p><a href="#" class="btn btn-primary px-4 py-3">Apply Now</a> <a href="course.php" class="btn btn-secondary px-4 py-3">View Courses</a></p>
           </div>
         </div>
       </div>
@@ -78,7 +77,7 @@
 		                  <input type="submit" value="Search" class="submit">
 		                </div>
 		              </form>
-		              <p>Just Browsing? <a href="#"> See all courses</a></p>
+		              <p>Just Browsing? <a href="course.php"> See all courses</a></p>
     						</div>
     						<div class="one-forth order-first img" style="background-image: url(images/image_1.jpg);"></div>
     					</div>
@@ -334,24 +333,6 @@
       </div>
     </section>
 
-    <section class="ftco-freeTrial">
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-md-12">
-    				<div class="d-flex align-items-center">
-			    		<div class="free-trial ftco-animate">
-			    			<h3>Try our free trial course</h3>
-			    			<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
-			    		</div>
-			    		<div class="btn-join ftco-animate">
-			    			<p><a href="#" class="btn btn-primary py-3 px-4">Join now!</a></p>
-			    		</div>
-			    	</div>
-    			</div>
-    		</div>
-    	</div>
-    </section>
-
     <section class="ftco-section">
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-3">
@@ -364,10 +345,10 @@
     				<div class="course align-self-stretch">
     					<a href="#" class="img" style="background-image: url(images/course-1.jpg)"></a>
     					<div class="text p-4">
-    						<p class="category"><span>English</span></p>
-    						<h3 class="mb-3"><a href="#">English for Tommorow</a></h3>
-    						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
-    						<p><a href="#" class="btn btn-primary">Enroll now!</a></p>
+    						<p class="category"><span>Diploma in </span></p>
+    						<h3 class="mb-3"><a href="#">Computer Engineering</a></h3>
+    						<p>Diploma in Computer Engineering is a three-year full-time course offered by Maharashtra State Board of Technical Education, Mumbai and approved by All India Council for Technical Education (AICTE).</p>
+    						<p><a href="#" class="btn btn-primary">Read more</a></p>
     					</div>
     				</div>
     			</div>
@@ -375,10 +356,10 @@
     				<div class="course align-self-stretch">
     					<a href="#" class="img" style="background-image: url(images/course-2.jpg)"></a>
     					<div class="text p-4">
-    						<p class="category"><span>Science</span></p>
-    						<h3 class="mb-3"><a href="#">Computer Engineering</a></h3>
-    						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
-    						<p><a href="#" class="btn btn-primary">Enroll now!</a></p>
+    						<p class="category"><span>Diploma in</span></p>
+    						<h3 class="mb-3"><a href="#">Mechanical Engineering</a></h3>
+    						<p>Diploma in Mechanical Engineering is a three-year full-time course offered by Maharashtra State Board of Technical Education, Mumbai and approved by All India Council for Technical Education (AICTE).</p>
+    						<p><a href="#" class="btn btn-primary">Read more</a></p>
     					</div>
     				</div>
     			</div>
@@ -386,17 +367,27 @@
     				<div class="course align-self-stretch">
     					<a href="#" class="img" style="background-image: url(images/course-3.jpg)"></a>
     					<div class="text p-4">
-    						<p class="category"><span>Business</span></p>
-    						<h3 class="mb-3"><a href="#">Business Studies</a></h3>
-    						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
-    						<p><a href="#" class="btn btn-primary">Enroll now!</a></p>
+    						<p class="category"><span>Diploma in</span></p>
+    						<h3 class="mb-3"><a href="#">Information Technology</a></h3>
+    						<p>Diploma in Information Technology is a three-year full-time course offered by Maharashtra State Board of Technical Education, Mumbai and approved by All India Council for Technical Education (AICTE).</p>
+    						<p><a href="#" class="btn btn-primary">Read more</a></p>
     					</div>
     				</div>
     			</div>
     		</div>
     		<div class="row justify-content-center mt-5">
         	<div class="col-md-10 ftco-animate">
-        		<p><strong>When she reached</strong> the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
+        		<ul style="list-style-type:circle;">
+            <p><strong>Vision</strong></p>
+            <li> To create competent technical manpower to cater Industry and societal needs.</li>
+            </ul>
+            <ul style="list-style-type:circle;">
+              <p><strong>Mission</strong></p>
+              <li>To provide an environment that values and encourages knowledge acquisition with effective implementation of MSBTE curriculum.</li>
+              <li> To empower and motivate faculties towards building their domain expertise in technology and management verticals.</li>
+              <li>To groom all round personality of students towards leadership, self-employability, and lifelong learning.</li>
+              <li>To enhance educational level, consultancies & technical services for socioeconomic development.</li>
+            </ul>
         		<p><span>Just Browsing?</span><a href="course.php"> View All Courses</a></p>
         	</div>
         </div>
@@ -404,63 +395,6 @@
     </section>
 
     <section class="ftco-section bg-light">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section ftco-animate text-center">
-            <h2 class="mb-4">Recent from blog</h2>
-          </div>
-        </div>
-        <div class="row d-flex">
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry align-self-stretch">
-              <a href="blog-single.php" class="block-20" style="background-image: url('images/image_1.jpg');">
-              </a>
-              <div class="text p-4 d-block">
-              	<div class="meta mb-3">
-                  <div><a href="#">August 12, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-                <h3 class="heading mt-3"><a href="#">How to standout at start of your UX Career</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry align-self-stretch">
-              <a href="blog-single.php" class="block-20" style="background-image: url('images/image_2.jpg');">
-              </a>
-              <div class="text p-4 d-block">
-              	<div class="meta mb-3">
-                  <div><a href="#">August 12, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-                <h3 class="heading mt-3"><a href="#">How to standout at start of your UX Career</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry align-self-stretch">
-              <a href="blog-single.php" class="block-20" style="background-image: url('images/image_3.jpg');">
-              </a>
-              <div class="text p-4 d-block">
-              	<div class="meta mb-3">
-                  <div><a href="#">August 12, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-                <h3 class="heading mt-3"><a href="#">How to standout at start of your UX Career</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="ftco-section">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section ftco-animate text-center">
@@ -522,29 +456,6 @@
         </div>
       </div>
     </section>
-		
-		<section class="ftco-section-parallax">
-      <div class="parallax-img d-flex align-items-center">
-        <div class="container">
-          <div class="row d-flex justify-content-center">
-            <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-              <h2>Subcribe to our Newsletter</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
-              <div class="row d-flex justify-content-center mt-5">
-                <div class="col-md-8">
-                  <form action="#" class="subscribe-form">
-                    <div class="form-group d-flex">
-                      <input type="text" class="form-control" placeholder="Enter email address">
-                      <input type="submit" value="Subscribe" class="submit px-3">
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <footer class="ftco-footer ftco-bg-dark ftco-section img" style="background-image: url(images/bg_2.jpg); background-attachment:fixed;">
     	<div class="overlay"></div>
@@ -552,40 +463,13 @@
         <div class="row mb-5">
           <div class="col-md-6">
             <div class="ftco-footer-widget mb-4">
-              <h4><a class="navbar-brand" href="index.php"><i class="flaticon-university"></i>Government Polytechnic College <br><small>Thane</small></a></h4>
+              <h4><a class="navbar-brand" href="index.php"><i class="flaticon-university"></i> G P Thane </a></h4>
               <p>The Institute is a co-education institute responsible for imparting industry-responsive Diploma level programs in the field of Engineering, technology & professional education to the Students admitted as per norms stipulated by Government of Maharashtra.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#" target="_blank"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#" target="_blank"><span class="icon-facebook"></span></a></li>
                 <li class="ftco-animate"><a href="#" target="_blank"><span class="icon-instagram"></span></a></li>
               </ul>
-            </div>
-          </div>
-          <div class="col-md-4" style="display: none">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Recent Blog</h2>
-              <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
-                <div class="text">
-                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
-                  <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> July 12, 2018</a></div>
-                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                  </div>
-                </div>
-              </div>
-              <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
-                <div class="text">
-                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
-                  <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> July 12, 2018</a></div>
-                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
           <div class="col-md-3" >

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title> GPT | Contact</title>
+    <title> GPT | Courses</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -39,10 +39,10 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
           <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="course.php" class="nav-link">Courses</a></li>
+          <li class="nav-item active"><a href="course.php" class="nav-link">Courses</a></li>
           <li class="nav-item"><a href="teacher.php" class="nav-link">Teacher</a></li>
           <li class="nav-item"><a href="event.php" class="nav-link">Events</a></li>
-          <li class="nav-item active"><a href="contact.php" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
           <li class="nav-item cta"><a href="contact.php" class="nav-link"><span>Apply Now!</span></a></li>
         </ul>
       </div>
@@ -55,62 +55,39 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-8 ftco-animate text-center">
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home</a></span> <span>Contact</span></p>
-            <h1 class="mb-3 bread">Contact Us</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home</a></span> <span>Course</span></p>
+            <h1 class="mb-3 bread">Courses</h1>
           </div>
         </div>
       </div>
     </div>
 
-    <section class="ftco-section contact-section ftco-degree-bg">
+<div>  
+<?php
+$id=$_GET['id'];
+if($id==1){
+?>
+  <section class="ftco-section">
       <div class="container">
-        <div class="row d-flex mb-5 contact-info">
-          <div class="col-md-12 mb-4">
-            <h2 class="h4">Contact Information</h2>
-          </div>
-          <div class="w-100"></div>
-          <div class="col-md-3">
-            <p><span>Address:</span>  Phadke Rd, opp. Bharat Gears Ltd, Phadkepada, Mumbra, Thane, Maharashtra 400612</p>
-          </div>
-          <div class="col-md-3">
-            <p><span>Phone:</span> <a href="tel:99696 01972">+91 99696 01972</a></p>
-          </div>
-          <div class="col-md-3">
-            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
-          </div>
-          <div class="col-md-3">
-            <p><span>Website:</span> <a href="gpthane.in">gpthane.in</a></p>
-          </div>
-        </div>
-        <div class="row block-9">
-          <div class="col-md-6 pr-md-5">
-          	<h4 class="mb-4">Do you have any questions?</h4>
-            <form action="#">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name">
+        <div class="row">
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="course align-self-stretch">
+              <a href="#" class="img" style="background-image: url(images/course-1.jpg)"></a>
+              <div class="text p-4">
+                <p class="category"><span>Diploma in </span></p>
+                <h3 class="mb-3"><a href="#">Computer Engineering</a></h3>
+                <p>Diploma in Computer Engineering is a three-year full-time course offered by Maharashtra State Board of Technical Education, Mumbai and approved by All India Council for Technical Education (AICTE).</p>
+                <p><a href="coursedetails.php?id=1" class="btn btn-primary">Read more/a></p>
               </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Email">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject">
-              </div>
-              <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-              </div>
-              <div class="form-group">
-                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
-              </div>
-            </form>
-          
-          </div>
-
-          <div class="col-md-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15075.403790867058!2d73.0435256!3d19.1580007!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa28af202166f2da4!2sGovernment%20Polytechnic%20Thane!5e0!3m2!1sen!2sin!4v1621621462453!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
           </div>
         </div>
       </div>
     </section>
+<?php
+}
+?>
+</div>
 
     <footer class="ftco-footer ftco-bg-dark ftco-section img" style="background-image: url(images/bg_2.jpg); background-attachment:fixed;">
       <div class="overlay"></div>
