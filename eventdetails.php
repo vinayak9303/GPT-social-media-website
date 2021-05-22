@@ -68,8 +68,28 @@ $id=$_GET['id'];
 if($id==1){
 ?>
   <section class="ftco-section">
-   <h1>Details of Event-1</h1>   
-  </section>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="blog-entry align-self-stretch">
+              <a href="blog-single.php" class="block-20" style="background-image: url('images/event-1.jpg');">
+              </a>
+              <div class="text p-4 d-block">
+                <div class="meta mb-3">
+                  <div><a href="#">Sep. 10, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
+                <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <p><a href="event.php">Go to the previous page<i class="ion-ios-arrow-backword"></i></a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 <?php
 }
 ?>
@@ -81,8 +101,28 @@ $id=$_GET['id'];
 if($id==2){
 ?>
   <section class="ftco-section">
-   <h1>Details of Event-2</h1>   
-  </section>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="blog-entry align-self-stretch">
+              <a href="blog-single.php" class="block-20" style="background-image: url('images/event-2.jpg');">
+              </a>
+              <div class="text p-4 d-block">
+                <div class="meta mb-3">
+                  <div><a href="#">Sep. 10, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
+                <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <p><a href="event.php">Go to the previous page<i class="ion-ios-arrow-backword"></i></a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 <?php
 }
 ?>
@@ -94,8 +134,28 @@ $id=$_GET['id'];
 if($id==3){
 ?>
   <section class="ftco-section">
-   <h1>Details of Event-3</h1>   
-  </section>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="blog-entry align-self-stretch">
+              <a href="blog-single.php" class="block-20" style="background-image: url('images/event-3.jpg');">
+              </a>
+              <div class="text p-4 d-block">
+                <div class="meta mb-3">
+                  <div><a href="#">Sep. 10, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
+                <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <p><a href="event.php">Go to the previous page<i class="ion-ios-arrow-backword"></i></a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 <?php
 }
 ?>
