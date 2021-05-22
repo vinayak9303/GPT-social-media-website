@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+  
   </head>
   <body>
     
@@ -83,7 +84,7 @@ if($id==1){
                 <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
                 <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                <p><a href="event.php">Go to the previous page<i class="ion-ios-arrow-backword"></i></a></p>
+                <p><a href="event.php"><i class='fas fa-angle-left'></i>Go to the previous page</a></p>
               </div>
             </div>
           </div>
@@ -116,7 +117,7 @@ if($id==2){
                 <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
                 <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                <p><a href="event.php">Go to the previous page<i class="ion-ios-arrow-backword"></i></a></p>
+                <p><a href="event.php"><i class='fas fa-angle-left'></i>Go to the previous page</a></p>
               </div>
             </div>
           </div>
@@ -149,7 +150,7 @@ if($id==3){
                 <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
                 <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                <p><a href="event.php">Go to the previous page<i class="ion-ios-arrow-backword"></i></a></p>
+                <p><a href="event.php"><i class='fas fa-angle-left'></i>Go to the previous page</a></p>
               </div>
             </div>
           </div>
@@ -235,6 +236,7 @@ if($id==3){
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     
   </body>
 </html>
