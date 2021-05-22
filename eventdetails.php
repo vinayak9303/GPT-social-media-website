@@ -30,7 +30,7 @@
     
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.php"><i class="flaticon-university"></i> G P Thane</a>
+      <a class="navbar-brand" href="index.php"><img src="images/logo.jpg" style="width: 40px;height: 40px" alt=""></img> G P Thane</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
@@ -39,24 +39,24 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
           <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
-          <li class="nav-item active"><a href="course.php" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="course.php" class="nav-link">Courses</a></li>
           <li class="nav-item"><a href="teacher.php" class="nav-link">Teacher</a></li>
-          <li class="nav-item"><a href="event.php" class="nav-link">Events</a></li>
+          <li class="nav-item active"><a href="event.php" class="nav-link">Events</a></li>
           <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
-          <li class="nav-item cta"><a href="contact.php" class="nav-link"><span>Apply Now!</span></a></li>
+          <li class="nav-item cta"><a href="contact.php" class="nav-link"><span>Log In</span></a></li>
         </ul>
       </div>
     </div>
   </nav>
     <!-- END nav -->
     
-    <div class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg'); background-attachment:fixed;">
+    <div class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg'); background-attachment:fixed;">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-8 ftco-animate text-center">
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home</a></span> <span>Course</span></p>
-            <h1 class="mb-3 bread">Courses</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home</a></span> <span>Event</span></p>
+            <h1 class="mb-3 bread">Events</h1>
           </div>
         </div>
       </div>
@@ -68,22 +68,34 @@ $id=$_GET['id'];
 if($id==1){
 ?>
   <section class="ftco-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 d-flex ftco-animate">
-            <div class="course align-self-stretch">
-              <a href="#" class="img" style="background-image: url(images/course-1.jpg)"></a>
-              <div class="text p-4">
-                <p class="category"><span>Diploma in </span></p>
-                <h3 class="mb-3"><a href="#">Computer Engineering</a></h3>
-                <p>Diploma in Computer Engineering is a three-year full-time course offered by Maharashtra State Board of Technical Education, Mumbai and approved by All India Council for Technical Education (AICTE).</p>
-                <p><a href="coursedetails.php?id=1" class="btn btn-primary">Read more/a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+   <h1>Details of Event-1</h1>   
+  </section>
+<?php
+}
+?>
+</div>
+
+<div>  
+<?php
+$id=$_GET['id'];
+if($id==2){
+?>
+  <section class="ftco-section">
+   <h1>Details of Event-2</h1>   
+  </section>
+<?php
+}
+?>
+</div>
+
+<div>  
+<?php
+$id=$_GET['id'];
+if($id==3){
+?>
+  <section class="ftco-section">
+   <h1>Details of Event-3</h1>   
+  </section>
 <?php
 }
 ?>
@@ -95,7 +107,7 @@ if($id==1){
         <div class="row mb-5">
           <div class="col-md-6">
             <div class="ftco-footer-widget mb-4">
-              <h4><a class="navbar-brand" href="index.php"><i class="flaticon-university"></i> G P Thane </a></h4>
+              <h4><a class="navbar-brand" href="index.php"><img src="images/logo.jpg" style="width: 40px;height: 40px" alt=""></img> G P Thane</a></h4>
               <p>The Institute is a co-education institute responsible for imparting industry-responsive Diploma level programs in the field of Engineering, technology & professional education to the Students admitted as per norms stipulated by Government of Maharashtra.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#" target="_blank"><span class="icon-twitter"></span></a></li>
@@ -111,7 +123,7 @@ if($id==1){
                 <li><a href="index.php" class="py-2 d-block">Home</a></li>
                 <li><a href="about.php" class="py-2 d-block">About</a></li>
                 <li><a href="course.php" class="py-2 d-block">Courses</a></li>
-                <li><a href="#student" class="py-2 d-block">Students</a></li>
+                <li><a href="event.php" class="py-2 d-block">Events</a></li>
                 <li><a href="https://vimeo.com/45830194" target="_blank" class="py-2 d-block">Video</a></li>
               </ul>
             </div>
@@ -123,7 +135,7 @@ if($id==1){
                 <ul>
                   <li><a href="https://www.google.com/maps/place/Government+Polytechnic+Thane/@19.1580007,73.0435256,15z/data=!4m5!3m4!1s0x0:0xa28af202166f2da4!8m2!3d19.1580007!4d73.0435256?hl=en>" target="_blank"><span class="icon icon-map-marker"></span><span class="text"> Phadke Rd, opp. Bharat Gears Ltd, Phadkepada, Mumbra, Thane, Maharashtra 400612</span></a></li>
                   <li><a href="tel:99696 01972"><span class="icon icon-phone"></span><span class="text">+91 99696 01972</span></a></li>
-                  <li><a href=""><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+                  <li><a href="mailto:gpthane97@gmail.com"><span class="icon icon-envelope"></span><span class="text">gpthane97@gmail.com</span></a></li>
                 </ul>
               </div>
             </div>

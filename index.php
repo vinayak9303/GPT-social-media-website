@@ -25,12 +25,13 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.php"><i class="flaticon-university"></i> G P Thane</a>
+      <a class="navbar-brand" href="index.php"><img src="images/logo.jpg" style="width: 40px;height: 40px" alt=""></img> G P Thane</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
@@ -43,7 +44,7 @@
           <li class="nav-item"><a href="teacher.php" class="nav-link">Teacher</a></li>
           <li class="nav-item"><a href="event.php" class="nav-link">Events</a></li>
           <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
-          <li class="nav-item cta"><a href="contact.php" class="nav-link"><span>Apply Now!</span></a></li>
+          <li class="nav-item cta"><a href="#" class="nav-link"><span>Log In</span></a></li>
         </ul>
       </div>
     </div>
@@ -67,7 +68,7 @@
     		<div class="row">
     			<div class="col-md-12">
     				<div class="courseSearch-wrap d-md-flex flex-column-reverse">
-    					<div class="full-wrap d-flex ftco-animate">
+    					<!-- <div class="full-wrap d-flex ftco-animate">
     						<div class="one-third order-last p-5">
     							<span>Know what you're after?</span>
     							<h3>I want to study</h3>
@@ -80,7 +81,7 @@
 		              <p>Just Browsing? <a href="course.php"> See all courses</a></p>
     						</div>
     						<div class="one-forth order-first img" style="background-image: url(images/image_1.jpg);"></div>
-    					</div>
+    					</div> -->
     					<div class="full-wrap ftco-animate">
     						<div class="one-half">
     							<div class="featured-blog d-md-flex">
@@ -348,7 +349,8 @@
     						<p class="category"><span>Diploma in </span></p>
     						<h3 class="mb-3"><a href="#">Computer Engineering</a></h3>
     						<p>Diploma in Computer Engineering is a three-year full-time course offered by Maharashtra State Board of Technical Education, Mumbai and approved by All India Council for Technical Education (AICTE).</p>
-    						<p><a href="#" class="btn btn-primary">Read more</a></p>
+    						<p><a href="#" class="btn btn-primary">Apply Now</a>
+                <a href="#" class="btn btn-danger"><i class="fa fa-download"></i> Brochure</a></p>
     					</div>
     				</div>
     			</div>
@@ -359,7 +361,8 @@
     						<p class="category"><span>Diploma in</span></p>
     						<h3 class="mb-3"><a href="#">Mechanical Engineering</a></h3>
     						<p>Diploma in Mechanical Engineering is a three-year full-time course offered by Maharashtra State Board of Technical Education, Mumbai and approved by All India Council for Technical Education (AICTE).</p>
-    						<p><a href="#" class="btn btn-primary">Read more</a></p>
+    						<p><a href="#" class="btn btn-primary">Apply Now</a>
+                <a href="#" class="btn btn-danger"><i class="fa fa-download"></i> Brochure</a></p>
     					</div>
     				</div>
     			</div>
@@ -370,24 +373,14 @@
     						<p class="category"><span>Diploma in</span></p>
     						<h3 class="mb-3"><a href="#">Information Technology</a></h3>
     						<p>Diploma in Information Technology is a three-year full-time course offered by Maharashtra State Board of Technical Education, Mumbai and approved by All India Council for Technical Education (AICTE).</p>
-    						<p><a href="#" class="btn btn-primary">Read more</a></p>
+    						<p><a href="#" class="btn btn-primary">Apply Now</a>
+                <a href="#" class="btn btn-danger"><i class="fa fa-download"></i> Brochure</a></p>
     					</div>
     				</div>
     			</div>
     		</div>
     		<div class="row justify-content-center mt-5">
         	<div class="col-md-10 ftco-animate">
-        		<ul style="list-style-type:circle;">
-            <p><strong>Vision</strong></p>
-            <li> To create competent technical manpower to cater Industry and societal needs.</li>
-            </ul>
-            <ul style="list-style-type:circle;">
-              <p><strong>Mission</strong></p>
-              <li>To provide an environment that values and encourages knowledge acquisition with effective implementation of MSBTE curriculum.</li>
-              <li> To empower and motivate faculties towards building their domain expertise in technology and management verticals.</li>
-              <li>To groom all round personality of students towards leadership, self-employability, and lifelong learning.</li>
-              <li>To enhance educational level, consultancies & technical services for socioeconomic development.</li>
-            </ul>
         		<p><span>Just Browsing?</span><a href="course.php"> View All Courses</a></p>
         	</div>
         </div>
@@ -415,7 +408,7 @@
                 <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
                 <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                <p><a href="event.php">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
+               <p><a href="eventdetails.php?id=1">Details<i class="ion-ios-arrow-forward"></i></a></p>
               </div>
             </div>
           </div>
@@ -432,7 +425,7 @@
                 <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
                 <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                <p><a href="event.php">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
+                <p><a href="eventdetails.php?id=2">Details<i class="ion-ios-arrow-forward"></i></a></p>
               </div>
             </div>
           </div>
@@ -449,7 +442,7 @@
                 <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
                 <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                <p><a href="event.php">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
+                <p><a href="eventdetails.php?id=3">Details<i class="ion-ios-arrow-forward"></i></a></p>
               </div>
             </div>
           </div>
@@ -463,7 +456,7 @@
         <div class="row mb-5">
           <div class="col-md-6">
             <div class="ftco-footer-widget mb-4">
-              <h4><a class="navbar-brand" href="index.php"><i class="flaticon-university"></i> G P Thane </a></h4>
+              <h4><a class="navbar-brand" href="index.php"><img src="images/logo.jpg" style="width: 40px;height: 40px" alt=""></img> G P Thane</a></h4>
               <p>The Institute is a co-education institute responsible for imparting industry-responsive Diploma level programs in the field of Engineering, technology & professional education to the Students admitted as per norms stipulated by Government of Maharashtra.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#" target="_blank"><span class="icon-twitter"></span></a></li>
@@ -479,7 +472,7 @@
                 <li><a href="index.php" class="py-2 d-block">Home</a></li>
                 <li><a href="about.php" class="py-2 d-block">About</a></li>
                 <li><a href="course.php" class="py-2 d-block">Courses</a></li>
-                <li><a href="#student" class="py-2 d-block">Students</a></li>
+                <li><a href="event.php" class="py-2 d-block">Events</a></li>
                 <li><a href="https://vimeo.com/45830194" target="_blank" class="py-2 d-block">Video</a></li>
               </ul>
             </div>
@@ -491,7 +484,7 @@
 	              <ul>
 	                <li><a href="https://www.google.com/maps/place/Government+Polytechnic+Thane/@19.1580007,73.0435256,15z/data=!4m5!3m4!1s0x0:0xa28af202166f2da4!8m2!3d19.1580007!4d73.0435256?hl=en>" target="_blank"><span class="icon icon-map-marker"></span><span class="text"> Phadke Rd, opp. Bharat Gears Ltd, Phadkepada, Mumbra, Thane, Maharashtra 400612</span></a></li>
 	                <li><a href="tel:99696 01972"><span class="icon icon-phone"></span><span class="text">+91 99696 01972</span></a></li>
-	                <li><a href=""><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+	                <li><a href="mailto:gpthane97@gmail.com"><span class="icon icon-envelope"></span><span class="text">gpthane97@gmail.com</span></a></li>
 	              </ul>
 	            </div>
             </div>

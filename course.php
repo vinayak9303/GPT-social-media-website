@@ -25,12 +25,13 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.php"><i class="flaticon-university"></i> G P Thane</a>
+      <a class="navbar-brand" href="index.php"><img src="images/logo.jpg" style="width: 40px;height: 40px" alt=""></img> G P Thane</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
@@ -43,14 +44,14 @@
           <li class="nav-item"><a href="teacher.php" class="nav-link">Teacher</a></li>
           <li class="nav-item"><a href="event.php" class="nav-link">Events</a></li>
           <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
-          <li class="nav-item cta"><a href="contact.php" class="nav-link"><span>Apply Now!</span></a></li>
+          <li class="nav-item cta"><a href="contact.php" class="nav-link"><span>Log In</span></a></li>
         </ul>
       </div>
     </div>
   </nav>
     <!-- END nav -->
     
-    <div class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg'); background-attachment:fixed;">
+    <div class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg'); background-attachment:fixed;">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
@@ -72,7 +73,8 @@
     						<p class="category"><span>Diploma in </span></p>
                 <h3 class="mb-3"><a href="#">Computer Engineering</a></h3>
                 <p>Diploma in Computer Engineering is a three-year full-time course offered by Maharashtra State Board of Technical Education, Mumbai and approved by All India Council for Technical Education (AICTE).</p>
-                <p><a href=".php?id=1" class="btn btn-primary">Read more</a></p>
+                <p><a href="#" class="btn btn-primary">Apply Now</a>
+                <a href="#" class="btn btn-danger"><i class="fa fa-download"></i> Brochure</a></p>
     					</div>
     				</div>
     			</div>
@@ -83,7 +85,8 @@
     						<p class="category"><span>Diploma in</span></p>
                 <h3 class="mb-3"><a href="#">Mechanical Engineering</a></h3>
                 <p>Diploma in Mechanical Engineering is a three-year full-time course offered by Maharashtra State Board of Technical Education, Mumbai and approved by All India Council for Technical Education (AICTE).</p>
-                <p><a href="#" class="btn btn-primary">Read more</a></p>
+                <p><a href="#" class="btn btn-primary">Apply Now</a>
+                <a href="#" class="btn btn-danger"><i class="fa fa-download"></i> Brochure</a></p>
     					</div>
     				</div>
     			</div>
@@ -94,7 +97,8 @@
     						<p class="category"><span>Diploma in</span></p>
                 <h3 class="mb-3"><a href="#">Information Technology</a></h3>
                 <p>Diploma in Information Technology is a three-year full-time course offered by Maharashtra State Board of Technical Education, Mumbai and approved by All India Council for Technical Education (AICTE).</p>
-                <p><a href="#" class="btn btn-primary">Read more</a></p>
+                <p><a href="#" class="btn btn-primary">Apply Now</a>
+                <a href="#" class="btn btn-danger"><i class="fa fa-download"></i> Brochure</a></p>
     					</div>
     				</div>
     			</div>
@@ -105,7 +109,8 @@
     						<p class="category"><span>Diploma in</span></p>
                 <h3 class="mb-3"><a href="#">Civil Engineering</a></h3>
                 <p>Diploma in Civil Engineering is a three-year full-time course offered by Maharashtra State Board of Technical Education, Mumbai and approved by All India Council for Technical Education (AICTE).</p>
-                <p><a href="#" class="btn btn-primary">Read more</a></p>
+                <p><a href="#" class="btn btn-primary">Apply Now</a>
+                <a href="#" class="btn btn-danger"><i class="fa fa-download"></i> Brochure</a></p>
     					</div>
     				</div>
     			</div>
@@ -116,7 +121,8 @@
     						<p class="category"><span>Diploma in</span></p>
                 <h3 class="mb-3"><a href="#"></a>Chemical Engineering</h3>
                 <p>Diploma in Chemical Engineering is a three-year full-time course offered by Maharashtra State Board of Technical Education, Mumbai and approved by All India Council for Technical Education (AICTE).</p>
-                <p><a href="#" class="btn btn-primary">Read more</a></p>
+                <p><a href="#" class="btn btn-primary">Apply Now</a>
+                <a href="#" class="btn btn-danger"><i class="fa fa-download"></i> Brochure</a></p>
     					</div>
     				</div>
     			</div>
@@ -127,7 +133,8 @@
     						<p class="category"><span>Diploma in</span></p>
                 <h3 class="mb-3"><a href="#">Travel and Tourism</a></h3>
                 <p>Diploma in Travel and Tourism is a three-year full-time course offered by Maharashtra State Board of Technical Education, Mumbai and approved by All India Council for Technical Education (AICTE).</p>
-                <p><a href="#" class="btn btn-primary">Read more</a></p>
+                <p><a href="#" class="btn btn-primary">Apply Now</a>
+                <a href="#" class="btn btn-danger"><i class="fa fa-download"></i> Brochure</a></p>
     					</div>
     				</div>
     			</div>
@@ -141,7 +148,7 @@
         <div class="row mb-5">
           <div class="col-md-6">
             <div class="ftco-footer-widget mb-4">
-              <h4><a class="navbar-brand" href="index.php"><i class="flaticon-university"></i> G P Thane </a></h4>
+              <h4><a class="navbar-brand" href="index.php"><img src="images/logo.jpg" style="width: 40px;height: 40px" alt=""></img> G P Thane</a></h4>
               <p>The Institute is a co-education institute responsible for imparting industry-responsive Diploma level programs in the field of Engineering, technology & professional education to the Students admitted as per norms stipulated by Government of Maharashtra.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#" target="_blank"><span class="icon-twitter"></span></a></li>
@@ -157,7 +164,7 @@
                 <li><a href="index.php" class="py-2 d-block">Home</a></li>
                 <li><a href="about.php" class="py-2 d-block">About</a></li>
                 <li><a href="course.php" class="py-2 d-block">Courses</a></li>
-                <li><a href="#student" class="py-2 d-block">Students</a></li>
+                <li><a href="event.php" class="py-2 d-block">Events</a></li>
                 <li><a href="https://vimeo.com/45830194" target="_blank" class="py-2 d-block">Video</a></li>
               </ul>
             </div>
@@ -169,7 +176,7 @@
                 <ul>
                   <li><a href="https://www.google.com/maps/place/Government+Polytechnic+Thane/@19.1580007,73.0435256,15z/data=!4m5!3m4!1s0x0:0xa28af202166f2da4!8m2!3d19.1580007!4d73.0435256?hl=en>" target="_blank"><span class="icon icon-map-marker"></span><span class="text"> Phadke Rd, opp. Bharat Gears Ltd, Phadkepada, Mumbra, Thane, Maharashtra 400612</span></a></li>
                   <li><a href="tel:99696 01972"><span class="icon icon-phone"></span><span class="text">+91 99696 01972</span></a></li>
-                  <li><a href=""><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+                  <li><a href="mailto:gpthane97@gmail.com"><span class="icon icon-envelope"></span><span class="text">gpthane97@gmail.com</span></a></li>
                 </ul>
               </div>
             </div>

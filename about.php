@@ -30,7 +30,7 @@
     
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.php"><i class="flaticon-university"></i> G P Thane</a>
+      <a class="navbar-brand" href="index.php"><img src="images/logo.jpg" style="width: 40px;height: 40px" alt=""></img> G P Thane</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
@@ -43,14 +43,14 @@
           <li class="nav-item"><a href="teacher.php" class="nav-link">Teacher</a></li>
           <li class="nav-item"><a href="event.php" class="nav-link">Events</a></li>
           <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
-          <li class="nav-item cta"><a href="contact.php" class="nav-link"><span>Apply Now!</span></a></li>
+          <li class="nav-item cta"><a href="contact.php" class="nav-link"><span>Log In</span></a></li>
         </ul>
       </div>
     </div>
   </nav>
     <!-- END nav -->
     
-    <div class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg'); background-attachment:fixed;">
+    <div class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg'); background-attachment:fixed;">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
@@ -67,16 +67,33 @@
     	<div class="container">
     		<div class="row d-flex">
     			<div class="col-md-6 d-flex ftco-animate">
-    				<div class="img img-about align-self-stretch" style="background-image: url(images/bg_3.jpg); width: 100%;"></div>
+    				<div class="img img-about align-self-stretch" style="background-image: url(images/image_2.jpg); width: 100%;"></div>
     			</div>
     			<div class="col-md-6 pl-md-5 ftco-animate">
     				<h2 class="mb-4">Welcome to Government Polytechnic College, Thane Established in 1985</h2>
     				<p>Government Polytechnic Thane is one of the oldest polytechnic established in Mumbai region in 1985. The Institute belongs to Government of Maharashtra & under the governance of the Director of Technical education (M.S.) Mumbai.The Institute is affiliated to Maharashtra State Board of Technical Education (MSBTE). The Institute is a co-education institute responsible for imparting industry-responsive Diploma level programs in the field of Engineering, technology & professional education to the Students admitted as per norms stipulated by Government of Maharashtra.</p>
     				<p>The institute is much closer to Industrial area within the developing community. Well established infrastructure facilities are key factors for positive performance. Faculty members are well qualified and capable of conducting continuing educational program for the Industriesand the other Organizations.</p>
     			</div>
+          <div class="row justify-content-left mt-5">
+          <div class="col-md-10 ftco-animate">
+            <ul style="list-style-type:circle;">
+            <p><strong>Vision</strong></p>
+            <li> To create competent technical manpower to cater Industry and societal needs.</li>
+            </ul>
+            <ul style="list-style-type:circle;">
+              <p><strong>Mission</strong></p>
+              <li>To provide an environment that values and encourages knowledge acquisition with effective implementation of MSBTE curriculum.</li>
+              <li> To empower and motivate faculties towards building their domain expertise in technology and management verticals.</li>
+              <li>To groom all round personality of students towards leadership, self-employability, and lifelong learning.</li>
+              <li>To enhance educational level, consultancies & technical services for socioeconomic development.</li>
+            </ul>
+          </div>
+          </div>
     		</div>
     	</div>
     </section>
+
+
 
     <section class="ftco-section-3 img" style="background-image: url(images/bg_3.jpg);">
     	<div class="overlay"></div>
@@ -134,7 +151,7 @@
     	</div>
     </section>
 
-    <section class="ftco-section testimony-section">
+    <section class="ftco-section testimony-section" id="student">
       <div class="container">
       	<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section ftco-animate text-center">
@@ -212,7 +229,7 @@
         <div class="row mb-5">
           <div class="col-md-6">
             <div class="ftco-footer-widget mb-4">
-              <h4><a class="navbar-brand" href="index.php"><i class="flaticon-university"></i> G P Thane </a></h4>
+              <h4><a class="navbar-brand" href="index.php"><img src="images/logo.jpg" style="width: 40px;height: 40px" alt=""></img> G P Thane</a></h4>
               <p>The Institute is a co-education institute responsible for imparting industry-responsive Diploma level programs in the field of Engineering, technology & professional education to the Students admitted as per norms stipulated by Government of Maharashtra.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#" target="_blank"><span class="icon-twitter"></span></a></li>
@@ -228,7 +245,7 @@
                 <li><a href="index.php" class="py-2 d-block">Home</a></li>
                 <li><a href="about.php" class="py-2 d-block">About</a></li>
                 <li><a href="course.php" class="py-2 d-block">Courses</a></li>
-                <li><a href="#student" class="py-2 d-block">Students</a></li>
+                <li><a href="event.php" class="py-2 d-block">Events</a></li>
                 <li><a href="https://vimeo.com/45830194" target="_blank" class="py-2 d-block">Video</a></li>
               </ul>
             </div>
@@ -240,7 +257,7 @@
                 <ul>
                   <li><a href="https://www.google.com/maps/place/Government+Polytechnic+Thane/@19.1580007,73.0435256,15z/data=!4m5!3m4!1s0x0:0xa28af202166f2da4!8m2!3d19.1580007!4d73.0435256?hl=en>" target="_blank"><span class="icon icon-map-marker"></span><span class="text"> Phadke Rd, opp. Bharat Gears Ltd, Phadkepada, Mumbra, Thane, Maharashtra 400612</span></a></li>
                   <li><a href="tel:99696 01972"><span class="icon icon-phone"></span><span class="text">+91 99696 01972</span></a></li>
-                  <li><a href=""><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+                  <li><a href="mailto:gpthane97@gmail.com"><span class="icon icon-envelope"></span><span class="text">gpthane97@gmail.com</span></a></li>
                 </ul>
               </div>
             </div>
