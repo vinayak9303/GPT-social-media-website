@@ -76,10 +76,10 @@
             <p><span>Phone:</span> <a href="tel:99696 01972">+91 99696 01972</a></p>
           </div>
           <div class="col-md-3">
-            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+            <p><span>Email:</span> <a href="mailto:gpthane97@gmail.com">gpthane97@gmail.com</a></p>
           </div>
           <div class="col-md-3">
-            <p><span>Website:</span> <a href="gpthane.in">gpthane.in</a></p>
+            <p><span>Website:</span> <a href="https://gpthane.in/" target="_blank">gpthane.in</a></p>
           </div>
         </div>
         <div class="row block-9">
