@@ -44,7 +44,7 @@
           <li class="nav-item"><a href="teacher.php" class="nav-link">Teacher</a></li>
           <li class="nav-item"><a href="event.php" class="nav-link">Events</a></li>
           <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
-          <li class="nav-item cta"><a href="#" class="nav-link"><span>Log In</span></a></li>
+          <li class="nav-item cta"><a href="login.php" class="nav-link"><span>Log In</span></a></li>
         </ul>
       </div>
     </div>
@@ -57,7 +57,7 @@
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-8 ftco-animate text-center">
             <h1 class="mb-4">No Nation Can Prosper In Life Without Education</h1>
-            <p><a href="#" class="btn btn-primary px-4 py-3">Apply Now</a> <a href="course.php" class="btn btn-secondary px-4 py-3">View Courses</a></p>
+            <p><a href="apply.php" class="btn btn-primary px-4 py-3">Apply Now</a> <a href="course.php" class="btn btn-secondary px-4 py-3">View Courses</a></p>
           </div>
         </div>
       </div>

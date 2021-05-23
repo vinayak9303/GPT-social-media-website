@@ -44,7 +44,7 @@
           <li class="nav-item"><a href="teacher.php" class="nav-link">Teacher</a></li>
           <li class="nav-item active"><a href="event.php" class="nav-link">Events</a></li>
           <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
-          <li class="nav-item cta"><a href="contact.php" class="nav-link"><span>Log In</span></a></li>
+          <li class="nav-item cta"><a href="login.php" class="nav-link"><span>Log In</span></a></li>
         </ul>
       </div>
     </div>
@@ -71,7 +71,7 @@ if($id==1){
   <section class="ftco-section">
     <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12" >
             <div class="blog-entry align-self-stretch">
               <a href="blog-single.php" class="block-20" style="background-image: url('images/event-1.jpg');">
               </a>

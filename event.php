@@ -43,7 +43,7 @@
           <li class="nav-item"><a href="teacher.php" class="nav-link">Teacher</a></li>
           <li class="nav-item active"><a href="event.php" class="nav-link">Events</a></li>
           <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
-          <li class="nav-item cta"><a href="contact.php" class="nav-link"><span>Log In</span></a></li>
+          <li class="nav-item cta"><a href="login.php" class="nav-link"><span>Log In</span></a></li>
         </ul>
       </div>
     </div>
@@ -78,7 +78,7 @@
                 <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
                 <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                <p><a href="eventdetails.php?id=1">Details<i class="ion-ios-arrow-forward"></i></a></p>
+                <p><a href="eventdetails.php?id=1">Details <i class="ion-ios-arrow-forward"></i></a></p>
               </div>
             </div>
           </div>

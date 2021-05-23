@@ -42,7 +42,7 @@
           <li class="nav-item active"><a href="teacher.php" class="nav-link">Teacher</a></li>
           <li class="nav-item"><a href="event.php" class="nav-link">Events</a></li>
           <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
-          <li class="nav-item cta"><a href="contact.php" class="nav-link"><span>Log In</span></a></li>
+          <li class="nav-item cta"><a href="login.php" class="nav-link"><span>Log In</span></a></li>
         </ul>
       </div>
     </div>
