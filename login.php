@@ -28,18 +28,23 @@
 
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
-   
- 
+
+<style>
+	body { 
+  padding-right: 0px !important;
+  overflow-y: hidden !important;
+}
+</style>
+
 </head>
 <body>
 	
 
-    <section>
-    	<div class="text-center" style="padding: 20px">
-			<img src="images/logo.jpg" alt="GPT-logo">
-		</div>
-    	<div class="row d-flex justify-content-center">
-		 <div class="col-sm-3">
+    <section class="hero-wrap" style="background-image: url('images/bg_2.jpg'); background-attachment:fixed;padding:140px">
+    	<div class="overlay"></div>
+    	<div class="container">
+    	<div class="row justify-content-center">
+		 <div class="col-sm-4">
     	   <div class="card">
 			<article class="card-body">
 			<h4 class="card-title text-center mb-4 mt-1">Sign in</h4>
@@ -51,7 +56,7 @@
 				 <div class="input-group-prepend">
 		    		<span class="input-group-text"> <i class="fa fa-user"></i> </span>
 		 		 </div>
-					<input name="" class="form-control" placeholder="Username" type="uname">
+					<input name="" class="form-control" placeholder="Username" type="uname" required>
 	            </div> <!-- input-group.// -->
 	        </div> <!-- form-group// -->
 	        <div class="form-group">
@@ -60,7 +65,7 @@
 		        <div class="input-group-prepend">
 		          <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
 		        </div>
-	            <input class="form-control" placeholder="******" type="password">
+	            <input class="form-control" placeholder="******" type="password" required>
 	          </div> <!-- input-group.// -->
 	        </div> <!-- form-group// -->
 	        <div class="form-group">
@@ -71,6 +76,7 @@
         </article>
         </div>
        </div>
+      </div>
      </div>
     </section>
   

@@ -68,72 +68,72 @@
     		<div class="row">
     			<div class="col-md-4 d-flex ftco-animate">
     				<div class="course align-self-stretch">
-    					<a href="#" class="img" style="background-image: url(images/course-1.jpg)"></a>
+    					<a href="apply.php" class="img" style="background-image: url(images/course-1.jpg)"></a>
     					<div class="text p-4">
     						<p class="category"><span>Diploma in </span></p>
-                <h3 class="mb-3"><a href="#">Computer Engineering</a></h3>
+                <h3 class="mb-3"><a href="apply.php">Computer Engineering</a></h3>
                 <p>Diploma in Computer Engineering is a three-year full-time course offered by Maharashtra State Board of Technical Education, Mumbai and approved by All India Council for Technical Education (AICTE).</p>
-                <p><a href="#" class="btn btn-primary">Apply Now</a>
+                <p><a href="apply.php" class="btn btn-primary">Apply Now</a>
                 <a href="#" class="btn btn-danger"><i class="fa fa-download"></i> Brochure</a></p>
     					</div>
     				</div>
     			</div>
     			<div class="col-md-4 d-flex ftco-animate">
     				<div class="course align-self-stretch">
-    					<a href="#" class="img" style="background-image: url(images/course-2.jpg)"></a>
+    					<a href="apply.php" class="img" style="background-image: url(images/course-2.jpg)"></a>
     					<div class="text p-4">
     						<p class="category"><span>Diploma in</span></p>
-                <h3 class="mb-3"><a href="#">Mechanical Engineering</a></h3>
+                <h3 class="mb-3"><a href="apply.php">Mechanical Engineering</a></h3>
                 <p>Diploma in Mechanical Engineering is a three-year full-time course offered by Maharashtra State Board of Technical Education, Mumbai and approved by All India Council for Technical Education (AICTE).</p>
-                <p><a href="#" class="btn btn-primary">Apply Now</a>
+                <p><a href="apply.php" class="btn btn-primary">Apply Now</a>
                 <a href="#" class="btn btn-danger"><i class="fa fa-download"></i> Brochure</a></p>
     					</div>
     				</div>
     			</div>
     			<div class="col-md-4 d-flex ftco-animate">
     				<div class="course align-self-stretch">
-    					<a href="#" class="img" style="background-image: url(images/course-3.jpg)"></a>
+    					<a href="apply.php" class="img" style="background-image: url(images/course-3.jpg)"></a>
     					<div class="text p-4">
     						<p class="category"><span>Diploma in</span></p>
-                <h3 class="mb-3"><a href="#">Information Technology</a></h3>
+                <h3 class="mb-3"><a href="apply.php">Information Technology</a></h3>
                 <p>Diploma in Information Technology is a three-year full-time course offered by Maharashtra State Board of Technical Education, Mumbai and approved by All India Council for Technical Education (AICTE).</p>
-                <p><a href="#" class="btn btn-primary">Apply Now</a>
+                <p><a href="apply.php" class="btn btn-primary">Apply Now</a>
                 <a href="#" class="btn btn-danger"><i class="fa fa-download"></i> Brochure</a></p>
     					</div>
     				</div>
     			</div>
     			<div class="col-md-4 d-flex ftco-animate">
     				<div class="course align-self-stretch">
-    					<a href="#" class="img" style="background-image: url(images/course-4.jpg)"></a>
+    					<a href="apply.php" class="img" style="background-image: url(images/course-4.jpg)"></a>
     					<div class="text p-4">
     						<p class="category"><span>Diploma in</span></p>
-                <h3 class="mb-3"><a href="#">Civil Engineering</a></h3>
+                <h3 class="mb-3"><a href="apply.php">Civil Engineering</a></h3>
                 <p>Diploma in Civil Engineering is a three-year full-time course offered by Maharashtra State Board of Technical Education, Mumbai and approved by All India Council for Technical Education (AICTE).</p>
-                <p><a href="#" class="btn btn-primary">Apply Now</a>
+                <p><a href="apply.php" class="btn btn-primary">Apply Now</a>
                 <a href="#" class="btn btn-danger"><i class="fa fa-download"></i> Brochure</a></p>
     					</div>
     				</div>
     			</div>
     			<div class="col-md-4 d-flex ftco-animate">
     				<div class="course align-self-stretch">
-    					<a href="#" class="img" style="background-image: url(images/course-5.jpg)"></a>
+    					<a href="apply.php" class="img" style="background-image: url(images/course-5.jpg)"></a>
     					<div class="text p-4">
     						<p class="category"><span>Diploma in</span></p>
-                <h3 class="mb-3"><a href="#"></a>Chemical Engineering</h3>
+                <h3 class="mb-3"><a href="apply.php">Chemical Engineering</a></h3>
                 <p>Diploma in Chemical Engineering is a three-year full-time course offered by Maharashtra State Board of Technical Education, Mumbai and approved by All India Council for Technical Education (AICTE).</p>
-                <p><a href="#" class="btn btn-primary">Apply Now</a>
+                <p><a href="apply.php" class="btn btn-primary">Apply Now</a>
                 <a href="#" class="btn btn-danger"><i class="fa fa-download"></i> Brochure</a></p>
     					</div>
     				</div>
     			</div>
     			<div class="col-md-4 d-flex ftco-animate">
     				<div class="course align-self-stretch">
-    					<a href="#" class="img" style="background-image: url(images/course-6.jpg)"></a>
+    					<a href="apply.php" class="img" style="background-image: url(images/course-6.jpg)"></a>
     					<div class="text p-4">
     						<p class="category"><span>Diploma in</span></p>
-                <h3 class="mb-3"><a href="#">Travel and Tourism</a></h3>
+                <h3 class="mb-3"><a href="apply.php">Travel and Tourism</a></h3>
                 <p>Diploma in Travel and Tourism is a three-year full-time course offered by Maharashtra State Board of Technical Education, Mumbai and approved by All India Council for Technical Education (AICTE).</p>
-                <p><a href="#" class="btn btn-primary">Apply Now</a>
+                <p><a href="apply.php" class="btn btn-primary">Apply Now</a>
                 <a href="#" class="btn btn-danger"><i class="fa fa-download"></i> Brochure</a></p>
     					</div>
     				</div>
