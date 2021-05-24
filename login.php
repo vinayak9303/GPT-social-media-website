@@ -3,7 +3,7 @@
 <head>
 	<title>GPT | Login</title>
 	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link href="images/logo.jpg" rel="icon">
@@ -34,17 +34,19 @@
   padding-right: 0px !important;
   overflow-y: hidden !important;
 }
+
 </style>
 
 </head>
 <body>
 	
 
-    <section class="hero-wrap" style="background-image: url('images/bg_2.jpg'); background-attachment:fixed;padding:140px">
-    	<div class="overlay"></div>
+    <section class="hero-wrap" style="background-image: url('images/bg_5.jpg'); background-attachment:fixed;padding-top: 120px">
+    	
     	<div class="container">
+    		<div class="overlay"></div>
     	<div class="row justify-content-center">
-		 <div class="col-sm-4">
+		 <div class="col-md-5">
     	   <div class="card">
 			<article class="card-body">
 			<h4 class="card-title text-center mb-4 mt-1">Sign in</h4>

@@ -3,7 +3,7 @@
 <head>
 	<title>GPT | Register</title>
 	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link href="images/logo.jpg" rel="icon">
@@ -28,23 +28,16 @@
 
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
-
-<style>
-	body { 
-  padding-right: 0px !important;
-  overflow-y: hidden !important;
-}
-</style>
  
 </head>
 <body>
 	
 
-    <section class="hero-wrap" style="background-image: url('images/bg_1.jpg'); background-attachment:fixed;padding:10px">
+    <section class="hero-wrap" style="background-image: url('images/bg_5.jpg'); background-attachment:fixed;padding:10px">
     	<div class="overlay"></div>
     	<div class="container">
     	<div class="row d-flex justify-content-center">
-		 <div class="col-sm-6">
+		 <div class="col-md-6">
     	   <div class="card">
 			<article class="card-body">
 			<h4 class="card-title text-center mb-4 mt-1">Call Me Back Now <span style="color: #FF8C00">+91 9969601972</span></h4>
@@ -65,7 +58,7 @@
 		        <div class="input-group-prepend">
 		          <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
 		        </div>
-	            <input class="form-control" placeholder="Enter your mail id" type="email" required>
+	            <input class="form-control" id="inputsm" placeholder="Enter your mail id" type="email" required>
 	          </div> <!-- input-group.// -->
 	        </div> <!-- form-group// -->
 	        <div class="form-group">
