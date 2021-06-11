@@ -33,8 +33,7 @@
 <body>
 	
 
-    <section class="hero-wrap" style="background-image: url('images/bg_5.jpg'); background-attachment:fixed;padding:10px">
-    	<div class="overlay"></div>
+    <section class="" style="background-image: url('images/bg_5.jpg'); background-attachment:fixed;background-size: cover;background-position: center center;padding:47px">
     	<div class="container">
     	<div class="row d-flex justify-content-center">
 		 <div class="col-md-6">
@@ -43,34 +42,34 @@
 			<h4 class="card-title text-center mb-4 mt-1">Call Me Back Now <span style="color: #FF8C00">+91 9969601972</span></h4>
 			<hr>
 		<form>
-			<div class="form-group">
+			<div class="form-group-sm">
 			 <label>Name</label>
 				<div class="input-group">
 				 <div class="input-group-prepend">
 		    		<span class="input-group-text"> <i class="fa fa-user"></i> </span>
 		 		 </div>
-					<input name="" class="form-control" placeholder="Enter your name" type="name" required>
+					<input name="" class="form-control" placeholder="John Doe" type="name" required>
 	            </div> <!-- input-group.// -->
 	        </div> <!-- form-group// -->
-	        <div class="form-group">
+	        <div class="form-group-sm">
 		     <label>Email-id</label>
 	          <div class="input-group">
 		        <div class="input-group-prepend">
 		          <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
 		        </div>
-	            <input class="form-control" id="inputsm" placeholder="Enter your mail id" type="email" required>
+	            <input class="form-control" id="inputsm" placeholder="example@gmail.com" type="email" required>
 	          </div> <!-- input-group.// -->
 	        </div> <!-- form-group// -->
-	        <div class="form-group">
+	        <div class="form-group-sm">
 			 <label>Mobile No.</label>
 				<div class="input-group">
 				 <div class="input-group-prepend">
 		    		<span class="input-group-text"> <i class='fas fa-phone-alt'></i> </span>
 		 		 </div>
-					<input name="" class="form-control" placeholder="Enter your mobile number" type="number" required>
+					<input name="" class="form-control" placeholder="012-345-6789" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"type="number" required>
 	            </div> <!-- input-group.// -->
 	        </div> <!-- form-group// -->
-	        <div class="form-group">
+	        <div class="form-group-sm">
 			 <label>Choose course</label>
 				<div class="input-group">
 				 <div class="input-group-prepend">
@@ -87,7 +86,7 @@
 						</select>
 			</div> <!-- input-group.// -->
 	        </div> <!-- form-group// -->
-	        <div class="form-group">
+	        <div class="form-group-sm">
 	        	<label>Have a Questions? </label>
 				<div class="input-group">
 				 <div class="input-group-prepend">
@@ -96,7 +95,7 @@
                 <textarea name="" id="" class="form-control" placeholder="Write here!"></textarea>
               </div>
             </div>
-	        <div class="form-group">
+	        <div class="form-group-sm"  style="padding-top: 20px">
 	          <button type="submit" class="btn btn-secondary btn-block"> Request call back</button>
 	        </div> <!-- form-group// -->
 	    </form>
