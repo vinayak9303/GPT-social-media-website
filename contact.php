@@ -16,7 +16,7 @@ include './header.php';
 
     <section class="ftco-section contact-section ftco-degree-bg">
       <div class="container">
-        <div class="row d-flex mb-5 contact-info">
+        <!-- <div class="row d-flex mb-5 contact-info">
           <div class="col-md-12 mb-4">
             <h2 class="h4">Contact Information</h2>
           </div>
@@ -33,9 +33,9 @@ include './header.php';
           <div class="col-md-3">
             <p><span>Website:</span> <a href="https://gpthane.in/" target="_blank">gpthane.in</a></p>
           </div>
-        </div>
+        </div> -->
         <div class="row block-9">
-          <div class="col-md-6 pr-md-5">
+          <div class="col-lg-6 pr-md-5">
           	<h4 class="mb-4">Do you have any questions?</h4>
             <form action="#">
               <div class="form-group">
@@ -56,9 +56,26 @@ include './header.php';
             </form>
           
           </div>
+          <div class="col-lg-6 d-table-cell mb-5 contact-info">
+          <div class="mb-4">
+            <h2 class="h4">Contact Information</h2>
+          </div>
+          <div class="">
+            <p><span style="color:black"><i class="fa fa-home"></i> :</span>  Phadke Rd, opp. Bharat Gears Ltd, Phadkepada, Mumbra,<br> Thane, Maharashtra 400612</p>
+          </div>
+          <div class="">
+            <p><span style="color:black"><i class="fa fa-phone"></i> :</span> <a href="tel:99696 01972">+91 99696 01972</a></p>
+          </div>
+          <div class="">
+            <p><span style="color:black"><i class="fa fa-envelope-o"></i> :</span> <a href="mailto:gpthane97@gmail.com">gpthane97@gmail.com</a></p>
+          </div>
+          <div class="">
+            <p><span style="color:black"><i class="fa fa-globe" aria-hidden="true"></i> :</span> <a href="https://gpthane.in/" target="_blank">gpthane.in</a></p>
+          </div>
+        
           
-          <div class="google-maps col-md-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15075.403790867058!2d73.0435256!3d19.1580007!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa28af202166f2da4!2sGovernment%20Polytechnic%20Thane!5e0!3m2!1sen!2sin!4v1621621462453!5m2!1sen!2sin" width="100%" height="85%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <div class="google-maps" style="width:100%;height:280px;padding-top: 10px">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15075.403790867058!2d73.0435256!3d19.1580007!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa28af202166f2da4!2sGovernment%20Polytechnic%20Thane!5e0!3m2!1sen!2sin!4v1621621462453!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </div>
         </div>
       </div>
