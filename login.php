@@ -1,3 +1,10 @@
+<?php
+include 'connection.php';
+session_start();
+if (isset($_SESSION['id'])) {
+    header("Location: ./Dashboard/");
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,6 +30,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" href="./Dashboard/plugins/sweetalert2/sweetalert2.min.css">
 <style>
 	body { 
   padding-right: 0px !important;
@@ -75,7 +83,8 @@
   
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+  <script src="./Dashboard/plugins/sweetalert2/sweetalert2.all.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.70/jquery.blockUI.min.js"></script>
 
 <script type="text/javascript">
 function loader(){
