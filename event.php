@@ -23,11 +23,10 @@ include './header.php';
               </a>
               <div class="text p-4 d-block">
               	<div class="meta mb-3">
-                  <div><a href="#">Sep. 10, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                  <div>Sep. 10, 2018</div>
+                  <div>Admin</div>
                 </div>
-                <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
+                <h3 class="heading mb-4"><a href="eventdetails.php?id=1">Intern Bootcamp Meetup 2018</a></h3>
                 <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
                 <p><a href="eventdetails.php?id=1">Details <i class="ion-ios-arrow-forward"></i></a></p>
@@ -40,11 +39,10 @@ include './header.php';
               </a>
               <div class="text p-4 d-block">
               	<div class="meta mb-3">
-                  <div><a href="#">Sep. 10, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                  <div>Sep. 10, 2018</div>
+                  <div>Admin</div>
                 </div>
-                <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
+                <h3 class="heading mb-4"><a href="eventdetails.php?id=2">Intern Bootcamp Meetup 2018</a></h3>
                 <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
                 <p><a href="eventdetails.php?id=2">Details <i class="ion-ios-arrow-forward"></i></a></p>
@@ -57,11 +55,10 @@ include './header.php';
               </a>
               <div class="text p-4 d-block">
               	<div class="meta mb-3">
-                  <div><a href="#">Sep. 10, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                  <div>Sep. 10, 2018</div>
+                  <div>Admin</div>
                 </div>
-                <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
+                <h3 class="heading mb-4"><a href="eventdetails.php?id=3">Intern Bootcamp Meetup 2018</a></h3>
                 <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
                 <p><a href="eventdetails.php?id=3">Details <i class="ion-ios-arrow-forward"></i></a></p>

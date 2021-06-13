@@ -63,7 +63,7 @@ include './header.php';
               <div class="icon d-flex justify-content-center align-items-center mb-3"><span class="flaticon-exam"></span></div>
               <div class="media-body px-3">
                 <h3 class="heading">Admission</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <p> For more details, please get in touch with our admission cell.</p>
               </div>
             </div>      
           </div>
@@ -71,8 +71,8 @@ include './header.php';
             <div class="media block-6 services p-3 py-4 d-block text-center">
               <div class="icon d-flex justify-content-center align-items-center mb-3"><span class="flaticon-blackboard"></span></div>
               <div class="media-body px-3">
-                <h3 class="heading">Notice Board</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <h3 class="heading">Expert Faculties</h3>
+                <p>GPT Faculty is perfect blend of research, industry and academic work experience. </p>
               </div>
             </div>      
           </div>
@@ -81,7 +81,7 @@ include './header.php';
               <div class="icon d-flex justify-content-center align-items-center mb-3"><span class="flaticon-books"></span></div>
               <div class="media-body px-3">
                 <h3 class="heading">Our Library</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <p>We understand various requirements and needs of Library users and make all efforts to live up to their expectations.</p>
               </div>
             </div>    
           </div>
@@ -89,61 +89,52 @@ include './header.php';
     	</div>
     </section>
 
-
     <section class="ftco-section-3 img" style="background-image: url(images/bg_3.jpg);">
-    	<div class="overlay"></div>
-    	<div class="container">
-    		<div class="row d-md-flex justify-content-center">
-    			<div class="col-md-9 about-video text-center">
-    				<h2 class="ftco-animate">Government Polytechnic College, Thane is leading college in India</h2>
-    				<div class="video d-flex justify-content-center">
-    					<a href="https://vimeo.com/45830194" class="button popup-vimeo d-flex justify-content-center align-items-center"><span class="ion-ios-play"></span></a>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row d-md-flex justify-content-center">
+          <div class="col-md-9 about-video text-center">
+            <h2 class="ftco-animate">Government Polytechnic College, Thane is a Leading College in India</h2>
+            <div class="video d-flex justify-content-center">
+              <a href="https://www.youtube.com/watch?v=khX5Tlm0pAo" class="button popup-vimeo d-flex justify-content-center align-items-center"><span class="ion-ios-play"></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="ftco-counter bg-light" id="section-counter">
-    	<div class="container">
-    		<div class="row justify-content-center">
-    			<div class="col-md-10">
-		    		<div class="row">
-		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18 text-center">
-		              <div class="text">
-		                <strong class="number" data-number="10300">0</strong>
-		                <span>Satisfied Students</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18 text-center">
-		              <div class="text">
-		                <strong class="number" data-number="7896">0</strong>
-		                <span>Courses Completed</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18 text-center">
-		              <div class="text">
-		                <strong class="number" data-number="400">0</strong>
-		                <span>Experts Advisors</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18 text-center">
-		              <div class="text">
-		                <strong class="number" data-number="200">0</strong>
-		                <span>Schools</span>
-		              </div>
-		            </div>
-		          </div>
-		        </div>
-	        </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <div class="row">
+              <div class="col-md-4 d-flex justify-content-center counter-wrap ftco-animate">
+                <div class="block-18 text-center">
+                  <div class="text">
+                    <strong class="number" data-number="10300">0</strong>
+                    <span>Satisfied Students</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex justify-content-center counter-wrap ftco-animate">
+                <div class="block-18 text-center">
+                  <div class="text">
+                    <strong class="number" data-number="7896">0</strong>
+                    <span>Courses Completed</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex justify-content-center counter-wrap ftco-animate">
+                <div class="block-18 text-center">
+                  <div class="text">
+                    <strong class="number" data-number="400">0</strong>
+                    <span>Experts Advisors</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    	</div>
+      </div>
     </section>
 
     <section id="student" class="ftco-section testimony-section">
@@ -231,7 +222,7 @@ include './header.php';
         			<div class="d-flex mb-4">
         				<div class="img" style="background-image: url(images/person_1.jpg);"></div>
         				<div class="info ml-4">
-        					<h3><a href="teacher-single.php">Ivan Jacobson</a></h3>
+        					<h3>Ivan Jacobson</h3>
         					<span class="position">CSE Teacher</span>
         					<p class="ftco-social d-flex">
 		                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
@@ -250,7 +241,7 @@ include './header.php';
         			<div class="d-flex mb-4">
         				<div class="img" style="background-image: url(images/person_2.jpg);"></div>
         				<div class="info ml-4">
-        					<h3><a href="teacher-single.php">Ivan Jacobson</a></h3>
+        					<h3>Ivan Jacobson</h3>
         					<span class="position">CSE Teacher</span>
         					<p class="ftco-social d-flex">
 		                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
@@ -269,7 +260,7 @@ include './header.php';
         			<div class="d-flex mb-4">
         				<div class="img" style="background-image: url(images/person_3.jpg);"></div>
         				<div class="info ml-4">
-        					<h3><a href="teacher-single.php">Ivan Jacobson</a></h3>
+        					<h3>Ivan Jacobson</h3>
         					<span class="position">CSE Teacher</span>
         					<p class="ftco-social d-flex">
 		                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
@@ -300,7 +291,7 @@ include './header.php';
     					<a href="apply.php" class="img" style="background-image: url(images/course-1.jpg)"></a>
     					<div class="text p-4">
     						<p class="category"><span>Diploma in </span></p>
-    						<h3 class="mb-3"><a href="apply.php">Computer Engineering</a></h3>
+    						<h3 class="mb-3"><a href="course.php">Computer Engineering</a></h3>
     						<p>Diploma in Computer Engineering is a three-year full-time course offered by Maharashtra State Board of Technical Education, Mumbai and approved by All India Council for Technical Education (AICTE).</p>
     						<p><a href="apply.php" class="btn btn-primary">Apply Now</a>
                 <a href="files/GPT-brochure.pdf" target="_blank" class="btn btn-danger"><i class="fa fa-download"></i> Brochure</a></p>
@@ -312,7 +303,7 @@ include './header.php';
     					<a href="apply.php" class="img" style="background-image: url(images/course-2.jpg)"></a>
     					<div class="text p-4">
     						<p class="category"><span>Diploma in</span></p>
-    						<h3 class="mb-3"><a href="apply.php">Mechanical Engineering</a></h3>
+    						<h3 class="mb-3"><a href="course.php">Mechanical Engineering</a></h3>
     						<p>Diploma in Mechanical Engineering is a three-year full-time course offered by Maharashtra State Board of Technical Education, Mumbai and approved by All India Council for Technical Education (AICTE).</p>
     						<p><a href="apply.php" class="btn btn-primary">Apply Now</a>
                 <a href="files/GPT-brochure.pdf" target="_blank" class="btn btn-danger"><i class="fa fa-download"></i> Brochure</a></p>
@@ -324,7 +315,7 @@ include './header.php';
     					<a href="apply.php" class="img" style="background-image: url(images/course-3.jpg)"></a>
     					<div class="text p-4">
     						<p class="category"><span>Diploma in</span></p>
-    						<h3 class="mb-3"><a href="apply.php">Information Technology</a></h3>
+    						<h3 class="mb-3"><a href="course.php">Information Technology</a></h3>
     						<p>Diploma in Information Technology is a three-year full-time course offered by Maharashtra State Board of Technical Education, Mumbai and approved by All India Council for Technical Education (AICTE).</p>
     						<p><a href="apply.php" class="btn btn-primary">Apply Now</a>
                 <a href="files/GPT-brochure.pdf" target="_blank" class="btn btn-danger"><i class="fa fa-download"></i> Brochure</a></p>
@@ -348,54 +339,51 @@ include './header.php';
           </div>
         </div>
         <div class="row">
-        	<div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry align-self-stretch">
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch">
               <a href="blog-single.php" class="block-20" style="background-image: url('images/event-1.jpg');">
               </a>
               <div class="text p-4 d-block">
-              	<div class="meta mb-3">
-                  <div><a href="#">Sep. 10, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                <div class="meta mb-3">
+                  <div>Sep. 10, 2018</div>
+                  <div>Admin</div>
                 </div>
-                <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
+                <h3 class="heading mb-4"><a href="eventdetails.php?id=1">Intern Bootcamp Meetup 2018</a></h3>
                 <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-               <p><a href="eventdetails.php?id=1">Details<i class="ion-ios-arrow-forward"></i></a></p>
+                <p><a href="eventdetails.php?id=1">Details <i class="ion-ios-arrow-forward"></i></a></p>
               </div>
             </div>
           </div>
           <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry d-flex align-self-stretch flex-column-reverse">
-              <a href="blog-single.php" class="block-20" style="background-image: url('images/event-2.jpg');">
+            <div class="blog-entry d-md-flex align-self-stretch flex-column-reverse">
+              <a href="blog-single.php" class="block-20 align-self-end" style="background-image: url('images/event-2.jpg');">
               </a>
               <div class="text p-4 d-block">
-              	<div class="meta mb-3">
-                  <div><a href="#">Sep. 10, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                <div class="meta mb-3">
+                  <div>Sep. 10, 2018</div>
+                  <div>Admin</div>
                 </div>
-                <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
+                <h3 class="heading mb-4"><a href="eventdetails.php?id=2">Intern Bootcamp Meetup 2018</a></h3>
                 <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                <p><a href="eventdetails.php?id=2">Details<i class="ion-ios-arrow-forward"></i></a></p>
+                <p><a href="eventdetails.php?id=2">Details <i class="ion-ios-arrow-forward"></i></a></p>
               </div>
             </div>
           </div>
           <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry align-self-stretch">
+            <div class="blog-entry align-self-stretch">
               <a href="blog-single.php" class="block-20" style="background-image: url('images/event-3.jpg');">
               </a>
               <div class="text p-4 d-block">
-              	<div class="meta mb-3">
-                  <div><a href="#">Sep. 10, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                <div class="meta mb-3">
+                  <div>Sep. 10, 2018</div>
+                  <div>Admin</div>
                 </div>
-                <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
+                <h3 class="heading mb-4"><a href="eventdetails.php?id=3">Intern Bootcamp Meetup 2018</a></h3>
                 <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                <p><a href="eventdetails.php?id=3">Details<i class="ion-ios-arrow-forward"></i></a></p>
+                <p><a href="eventdetails.php?id=3">Details <i class="ion-ios-arrow-forward"></i></a></p>
               </div>
             </div>
           </div>

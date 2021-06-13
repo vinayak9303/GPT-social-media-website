@@ -17,10 +17,18 @@ $currentPage = basename($_SERVER['REQUEST_URI']) ;
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title> GPT | <?php foreach($pages as $filename => $pageTitle) {
-      if ($filename == $currentPage)   
-      echo htmlspecialchars($pageTitle);
+    <title> GPT |  <?php 
+    $i=0; 
+    foreach($pages as $filename => $pageTitle) {
+      if ($filename == $currentPage)
+      {
+        $i=1;
+        echo htmlspecialchars($pageTitle);
+      }   
+      
       }
+      if($i!=1)
+        echo "Home";
       ?>
     </title>
     <meta charset="utf-8">
@@ -52,7 +60,7 @@ $currentPage = basename($_SERVER['REQUEST_URI']) ;
     
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.php"><img src="images/logo.jpg" style="width: 40px;height: 40px" alt=""></img> G P Thane</a>
+      <a class="navbar-brand" href="index.php" style="color:black !important"><img src="images/logo.jpg" style="width: 40px;height: 40px" alt=""></img> G P Thane</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
@@ -77,7 +85,32 @@ $currentPage = basename($_SERVER['REQUEST_URI']) ;
             </li>
             <?php }
             }?>
-            <li class="nav-item cta"><a href="login.php" class="nav-link"><span>Log In</span></a></li> 
+            <li class="nav-item cta"> 
+             <?php  if(isset($_SESSION['id'])){ ?>
+                                    
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" data-toggle="dropdown" href="#">
+                      <i class="fa fa-user"></i><?php echo $row3['name']; ?>
+                      <span class="badge badge-warning navbar-badge"></span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-left">
+                      <div class="dropdown-divider"></div>
+                      <a href="Dashboard/profile.php" class="dropdown-item">
+                        <i class="fa fa-user"></i> My Profile
+                      </a>
+                      <div class="dropdown-divider"></div>
+                      <a href="logout.php" class="dropdown-item">
+                        <i class="fa fa-power-off"></i> LogOut
+                      </a>
+                      </div>
+                  </li>
+                </ul>
+                                    
+                <?php } else{ ?>
+                   <a href="login.php" class="nav-link"><span>Log In</span></a>
+                <?php } ?>
+          </li> 
         </ul>
       </div>
     </div>
