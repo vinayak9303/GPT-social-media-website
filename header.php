@@ -11,6 +11,28 @@ $pages = array(
 
 $currentPage = basename($_SERVER['REQUEST_URI']) ;
 
+include './connection.php';
+$date=date("Y-m-d H:i:s");
+$sql="SELECT * FROM `notifiacation`";
+$result=mysqli_query($conn,$sql);
+$marquee="";
+while ($row=mysqli_fetch_assoc($result)) {
+    // code...
+    $marquee.=$row['title'];
+    $marquee.= str_repeat('&nbsp;', 7);;
+}
+
+?>
+<?php
+if (isset($_SESSION['id'])) {
+  $sid=$_SESSION['id'];
+   $sql="SELECT * FROM `users` Where id='$sid'";
+   $result1=mysqli_query($conn,$sql);
+   $row3=mysqli_fetch_array($result1);
+}
+else{
+  // header("Location:index.php");
+}
 ?>
 
 
@@ -76,8 +98,14 @@ $currentPage = basename($_SERVER['REQUEST_URI']) ;
                  <a href="<?php echo $filename ; ?>" class="nav-link" ><?php echo $pageTitle ; ?></a>
             </li>
             <?php }
-            }?>
-            <li class="nav-item cta"><a href="login.php" class="nav-link"><span>Log In</span></a></li> 
+            }
+            if(isset($_SESSION['id'])){ ?>
+
+             <li class="nav-item"><a href="login.php" class="nav-link"><span>Hi, <?php echo substr($row3['name'], 0, 10); ?></span></a></li> 
+              <?php } else{ ?>
+              <li class="nav-item cta"><a href="login.php" class="nav-link"><span>Log In</span></a></li>
+              <?php } ?>  
+             
         </ul>
       </div>
     </div>
@@ -85,7 +113,7 @@ $currentPage = basename($_SERVER['REQUEST_URI']) ;
     <!-- END nav -->
   
   <div class="py-1" style="background-color: rgb(108 117 125 / 7%);">
-    <marquee style="color: red;"><img src="images/new.gif" alt="new-gif" style="height: 20px">Welcome to GPT Thane
-      <!-- <?php echo $marquee; ?> -->
+    <marquee style="color: red;"><img src="images/new.gif" alt="new-gif" style="height: 20px">
+      <?php echo $marquee; ?> 
     </marquee>
   </div>

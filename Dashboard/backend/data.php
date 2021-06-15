@@ -238,19 +238,19 @@ else if ($type == "register") {
             $mail->SMTPSecure = "tls";
             $mail->Port = 587;
             $mail->Host = "smtp.gmail.com";
-            $mail->Username   = "godsevinayak79@gmail.com";
-            $mail->Password   = "vinayak97@$";
+            $mail->Username="gpthane97@gmail.com";
+            $mail->Password="Gpt@1234";
             //Set who the message is to be sent from
-            $mail->From = "mdeduchem@gmail.com";
+            $mail->From = "gpthane97@gmail.com";
             //From email address and name
-            $mail->FromName = "MD EduChem";
+            $mail->FromName = "GPT";
             //Set who the message is to be sent to
             $mail->addAddress($email);
             //Send HTML or Plain Text email
             $mail->isHTML(true);
             //Set the subject line
             $mail->Subject = "Regitration successful";
-            $mail->Body = "<p>Your Regitration is succesfully Done.</p>";
+            $mail->Body = "<p><b>Your Regitration is succesfully Done.</b><br>Your login credentials are as follows:<br><br>email:$email<br>password:$pass<br> you can login to Dashboard by going on our website.<br><br>Thank you.<br>Regards,<br>Admission Team | GPT</p>";
             $mail->AltBody = "This is the plain text version of the email content";
             
                 $mail->send();
@@ -270,6 +270,78 @@ else if ($type == "register") {
     }
     else
       $data = array("success" => 4);
+}
+else if ($type == "requestcallback") {
+    $name=$_POST['name'];
+    $email=$_POST['mail'];
+    $mobile=$_POST['mobile'];
+    $course=$_POST['course'];
+    $msg=$_POST['msg'];
+    try {
+    $mail = new PHPMailer();
+    $mail->IsSMTP();
+    $mail->SMTPAuth = true;
+    $mail->SMTPSecure = "tls";
+    $mail->Port = 587;
+    $mail->Host = "smtp.gmail.com";
+    $mail->Username="gpthane97@gmail.com";
+    $mail->Password="Gpt@1234";
+    //Set who the message is to be sent from
+    $mail->From = "gpthane97@gmail.com";
+    //From email address and name
+    $mail->FromName = "GPT";
+    //Set who the message is to be sent to
+    $mail->addAddress($email);
+    //Send HTML or Plain Text email
+    $mail->isHTML(true);
+    //Set the subject line
+    $mail->Subject = "Call back Request Submitted succesfully";
+    $mail->Body = "<p><b>Your Call back request is submitted succesfully.</b></p><p>You have submitted following details:<br>Name:$name<br>Email:$email<br>Mobile:$mobile<br>Course:$course<br>Massege:$msg<br><br> Our expert team contact with you within next 24 hours<br><br>Thank You.<br>Regards,<br> Academics Team | GPT</p>";
+    $mail->AltBody = "This is the plain text version of the email content";
+    
+        if($mail->send()){
+          $data= array("success" => 1);
+        }
+    } catch (Exception $e) {
+        $data= array("success" => 0);
+    }
+    //$data= array("success" => 1);
+}
+else if ($type == "contact") {
+    $name=$_POST['name'];
+    $email=$_POST['mail'];
+    $mobile=$_POST['mobile'];
+    $msg=$_POST['massege'];
+    $subject=$_POST['subject'];
+    try {
+    $mail = new PHPMailer();
+    $mail->IsSMTP();
+    $mail->SMTPAuth = true;
+    $mail->SMTPSecure = "tls";
+    $mail->Port = 587;
+    $mail->Host = "smtp.gmail.com";
+    $mail->Username="gpthane97@gmail.com";
+    $mail->Password="Gpt@1234";
+    //Set who the message is to be sent from
+    $mail->From = "gpthane97@gmail.com";
+    //From email address and name
+    $mail->FromName = "GPT";
+    //Set who the message is to be sent to
+    $mail->addAddress($email);
+    //Send HTML or Plain Text email
+    $mail->isHTML(true);
+    //Set the subject line
+    $mail->Subject = "Query Submitted succesfully";
+    $mail->Body = "<p><b>Your Query is submitted succesfully.</b></p><p>You have submitted following details:<br>Name:$name<br>Email:$email<br>Mobile:$mobile<br>subject:$subject<br>Massege:$msg<br><br> we will try to resolve your query within next 24 hours<br><br>Thank You.<br>Regards,<br> Academics Team | GPT</p>";
+    $mail->AltBody = "This is the plain text version of the email content";
+    
+        if($mail->send()){
+          $data= array("success" => 1);
+        }
+    } catch (Exception $e) {
+        $data= array("success" => 0);
+    }
+    //$data= array("success" => 1);
 }
 else if ($type == "login") {
     $email=$_POST['mail'];

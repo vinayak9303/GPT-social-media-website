@@ -18,14 +18,14 @@ $access=0;
 if ($row3['user_role']!=1)
 {
  // echo "hii";
- if ($dir=="/MdEduChem/Dashboard/11thclassroom") {
+ if ($dir=="/Gpt-social-media-website/Dashboard/semIII") {
   // echo "hii";
   if ($cid==1 || $cid==3) {
     $access=1;
     // code...
   }
  }
- if ($dir=="/MdEduChem/Dashboard/12thclassroom") {
+ if ($dir=="/Gpt-social-media-website/Dashboard/semIV") {
   // echo "hii";
   if ($cid==2 || $cid==3) {
     $access=1;
@@ -52,8 +52,8 @@ if ($access==0)
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MdEduChem | Dashboard</title>
-  <link rel="shortcut icon" href="./../../images/logo.png" type="image/png">
+  <title>GPT | Dashboard</title>
+  <link rel="shortcut icon" href="./../../images/logo.jpg" type="image/png">
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
@@ -208,9 +208,9 @@ if ($access==0)
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="index.php" class="brand-link">
-      <img src="./../../images/logo.png" alt="AdminLTE Logo" class="brand-image">
-      <span class="brand-text font-weight-light">MD EduChem</span>
+    <a href="./../index.php" class="brand-link">
+      <img src="./../../images/logo.jpg" alt="AdminLTE Logo" class="brand-image">
+      <span class="brand-text font-weight-light">GPT</span>
     </a>
 
     <!-- Sidebar -->
@@ -244,160 +244,132 @@ if ($access==0)
                with font-awesome or any other icon font library -->
                <?php if($row3['user_role']==1 || $row3['course_id']!=2){?>
           <li class="nav-item">
-            <a href="./11thclassroom/" class="nav-link bg-primary">
+            <a href="./semIII/" class="nav-link bg-primary">
               <i class="nav-icon fas fa-user-graduate"></i>
               <p>
-                11<sup>th</sup> Classroom
+                semIII Classroom
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./../11thclassroom/" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/11thclassroom/index.php") { echo 'active'; } ?>">
+                <a href="./../semIII/" class="nav-link <?php if($dirname =="/Gpt-social-media-website/Dashboard/semIII/index.php") { echo 'active'; } ?>">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Home</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./../11thclassroom/syllabus.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/11thclassroom/syllabus.php") { echo 'active'; } ?>">
+                <a href="./../semIII/syllabus.php" class="nav-link <?php if($dirname =="/Gpt-social-media-website/Dashboard/semIII/syllabus.php") { echo 'active'; } ?>">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Syllabus</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./../11thclassroom/textbooks.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/11thclassroom/textbooks.php") { echo 'active'; } ?>">
+                <a href="./../semIII/textbooks.php" class="nav-link <?php if($dirname =="/Gpt-social-media-website/Dashboard/semIII/textbooks.php") { echo 'active'; } ?>">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Textbook's</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./../11thclassroom/practical-books.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/11thclassroom/practical-books.php") { echo 'active'; } ?>">
+                <a href="./../semIII/manuals.php" class="nav-link <?php if($dirname =="/Gpt-social-media-website/Dashboard/semIII/manuals.php") { echo 'active'; } ?>">
                   <i class="fa fa-book nav-icon"></i>
-                  <p>Practical Books</p>
+                  <p>Manuals</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./../11thclassroom/reference-books.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/11thclassroom/reference-books.php") { echo 'active'; } ?>">
+                <a href="./../semIII/reference-books.php" class="nav-link <?php if($dirname =="/Gpt-social-media-website/Dashboard/semIII/reference-books.php") { echo 'active'; } ?>">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Reference Books</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./../11thclassroom/videos.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/11thclassroom/videos.php") { echo 'active'; } ?>">
+                <a href="./../semIII/videos.php" class="nav-link <?php if($dirname =="/Gpt-social-media-website/Dashboard/semIII/videos.php") { echo 'active'; } ?>">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Videos</p>
                 </a>
               </li>
-              <?php if($row3['user_role']==1){?>
               <li class="nav-item">
-                <a href="./../11thclassroom/notes.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/11thclassroom/notes.php") { echo 'active'; } ?>">
+                <a href="./../semIII/notes.php" class="nav-link <?php if($dirname =="/Gpt-social-media-website/Dashboard/semIII/notes.php") { echo 'active'; } ?>">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Notes</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./../11thclassroom/exercises.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/11thclassroom/exercises.php") { echo 'active'; } ?>">
+                <a href="./../semIII/assignments.php" class="nav-link <?php if($dirname =="/Gpt-social-media-website/Dashboard/semIII/assignments.php") { echo 'active'; } ?>">
                   <i class="fa fa-book nav-icon"></i>
-                  <p>Exercise</p>
+                  <p>Assignments</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./../11thclassroom/examinations.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/11thclassroom/examinations.php") { echo 'active'; } ?>">
+                <a href="./../semIII/examinations.php" class="nav-link <?php if($dirname =="/Gpt-social-media-website/Dashboard/semIII/examinations.php") { echo 'active'; } ?>">
                   <i class="fa fa-book nav-icon"></i>
-                  <p>Examination</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="./../11thclassroom/cet.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/11thclassroom/cet.php") { echo 'active'; } ?>">
-                  <i class="fa fa-book nav-icon"></i>
-                  <p>CET</p>
-                </a>
-              </li>
-              <?php }?>
-              <li class="nav-item">
-                <a href="./../11thclassroom/career-guidance.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/11thclassroom/career-guidance.php") { echo 'active'; } ?>">
-                  <i class="fa fa-book nav-icon"></i>
-                  <p>Carrer guidance</p>
+                  <p>Examinations</p>
                 </a>
               </li>
             </ul>
           </li>
         <?php } if($row3['user_role']==1 || $row3['course_id']!=1){?>
           <li class="nav-item">
-            <a href="./12thclassroom/" class="nav-link bg-primary">
+            <a href="./semIV/" class="nav-link bg-primary">
               <i class="nav-icon fas fa-user-graduate"></i>
               <p>
-                12<sup>th</sup> Classroom
+                semIV Classroom
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./../12thclassroom/" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/12thclassroom/index.php") { echo 'active'; } ?>">
+                <a href="./../semIV/" class="nav-link <?php if($dirname =="/Gpt-social-media-website/Dashboard/semIV/index.php") { echo 'active'; } ?>">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Home</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./../12thclassroom/syllabus.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/12thclassroom/syllabus.php") { echo 'active'; } ?>">
+                <a href="./../semIV/syllabus.php" class="nav-link <?php if($dirname =="/Gpt-social-media-website/Dashboard/semIV/syllabus.php") { echo 'active'; } ?>">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Syllabus</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./../12thclassroom/textbooks.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/12thclassroom/textbooks.php") { echo 'active'; } ?>">
+                <a href="./../semIV/textbooks.php" class="nav-link <?php if($dirname =="/Gpt-social-media-website/Dashboard/semIV/textbooks.php") { echo 'active'; } ?>">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Textbook's</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./../12thclassroom/practical-books.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/12thclassroom/practical-books.php") { echo 'active'; } ?>">
+                <a href="./../semIV/manuals.php" class="nav-link <?php if($dirname =="/Gpt-social-media-website/Dashboard/semIV/manuals.php") { echo 'active'; } ?>">
                   <i class="fa fa-book nav-icon"></i>
-                  <p>Practical Books</p>
+                  <p>Manuals</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./../12thclassroom/reference-books.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/12thclassroom/reference-books.php") { echo 'active'; } ?>">
+                <a href="./../semIV/reference-books.php" class="nav-link <?php if($dirname =="/Gpt-social-media-website/Dashboard/semIV/reference-books.php") { echo 'active'; } ?>">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Reference Books</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./../12thclassroom/videos.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/12thclassroom/videos.php") { echo 'active'; } ?>">
+                <a href="./../semIV/videos.php" class="nav-link <?php if($dirname =="/Gpt-social-media-website/Dashboard/semIV/videos.php") { echo 'active'; } ?>">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Videos</p>
                 </a>
               </li>
-              <?php if($row3['user_role']==1){?>
               <li class="nav-item">
-                <a href="./../12thclassroom/notes.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/12thclassroom/notes.php") { echo 'active'; } ?>">
+                <a href="./../semIV/notes.php" class="nav-link <?php if($dirname =="/Gpt-social-media-website/Dashboard/semIV/notes.php") { echo 'active'; } ?>">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Notes</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./../12thclassroom/exercises.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/12thclassroom/exercises.php") { echo 'active'; } ?>">
+                <a href="./../semIV/assignments.php" class="nav-link <?php if($dirname =="/Gpt-social-media-website/Dashboard/semIV/assignments.php") { echo 'active'; } ?>">
                   <i class="fa fa-book nav-icon"></i>
-                  <p>Exercise</p>
+                  <p>Assignments</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./../12thclassroom/examinations.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/12thclassroom/examinations.php") { echo 'active'; } ?>">
+                <a href="./../semIV/examinations.php" class="nav-link <?php if($dirname =="/Gpt-social-media-website/Dashboard/semIV/examinations.php") { echo 'active'; } ?>">
                   <i class="fa fa-book nav-icon"></i>
-                  <p>Examination</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="./../12thclassroom/cet.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/12thclassroom/cet.php") { echo 'active'; } ?>">
-                  <i class="fa fa-book nav-icon"></i>
-                  <p>CET</p>
-                </a>
-              </li>
-            <?php } ?>
-              <li class="nav-item">
-                <a href="./../12thclassroom/career-guidance.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/12thclassroom/career-guidance.php") { echo 'active'; } ?>">
-                  <i class="fa fa-book nav-icon"></i>
-                  <p>Carrer guidance</p>
+                  <p>Examinations</p>
                 </a>
               </li>
             </ul>
@@ -431,6 +403,12 @@ if ($access==0)
             <a href="./../students.php" class="nav-link">
               <i class="fa fa-user nav-icon"></i>
               <p>Students</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="./../new-registeration.php" class="nav-link">
+              <i class="fa fa-user nav-icon"></i>
+              <p>New Registeration</p>
             </a>
           </li>
         <?php } ?>

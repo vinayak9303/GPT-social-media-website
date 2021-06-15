@@ -37,18 +37,21 @@ include './header.php';
         <div class="row block-9">
           <div class="col-lg-6 pr-md-5">
           	<h4 class="mb-4">Do you have any questions?</h4>
-            <form action="#">
+            <form id="contact" method="POST">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name">
+                <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Email">
+                <input type="email" name="email" id="email" class="form-control" placeholder="Your Email" required>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject">
+                <input type="number" name="mobile" id="mobile" class="form-control" placeholder="Your Mobile No" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"  required>
               </div>
               <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                <input type="text" name="subject" id="subject" class="form-control" placeholder="Enter Subject" required>
+              </div>
+              <div class="form-group">
+                <textarea name="massege" id="massege" cols="30" rows="7" class="form-control" placeholder="Enter Message" required></textarea>
               </div>
               <div class="form-group">
                 <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
@@ -84,3 +87,81 @@ include './header.php';
 <?php
 include './footer.php';
 ?> 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.70/jquery.blockUI.min.js"></script>
+  <script src="./Dashboard/plugins/sweetalert2/sweetalert2.all.min.js"></script>
+<script>
+    function loader(){
+    
+    $.blockUI({
+        message: '<div class="loader"><svg class="circular" viewBox="25 25 50 50"> <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/></svg></div>',
+        overlayCSS: {
+            backgroundColor: '#000',
+            opacity: 0.7,
+            cursor: 'wait'
+        },
+        css: {
+            color: '#333',
+            border: 0,
+            padding: 0,
+            backgroundColor: 'transparent'
+        },
+    });
+
+}
+$('#contact').on('submit', function(e) {
+      e.preventDefault();
+        loader();
+        $.ajax({
+            url: './Dashboard/backend/data.php',
+            type: 'POST',
+            dataType: 'json',
+            data:{
+                type:"contact",
+                name:$('#name').val(),
+                mail:$('#email').val(),
+                mobile:$('#mobile').val(),
+                massege:$('#massege').val(),
+                subject:$('#subject').val(),
+            },
+            success: function(data) {
+              console.log(data);
+                $.unblockUI();
+                // console.log('1')
+                if(data['success'] == 1){
+                  Swal.fire(
+                  'Success',
+                  'Query submitted successfully',
+                  'success'
+                ).then(function(){
+            location.reload();
+        });
+            }
+                else if(data['success'] == 2){
+                 Swal.fire(
+                  'Warning',
+                  'Insert correct data',
+                  'warning'
+                ).then(function(){
+            location.reload();
+        });
+                }
+                else{
+                  Swal.fire(
+                  'Error',
+                  'Something went wrong',
+                  'error'
+                ).then(function(){
+            location.reload();
+        });  
+        }
+            },
+             error: function (response) {
+        console.log("Error")
+        console.log(response)
+      }
+        });    
+        
+        return false;
+        
+    });
+</script>

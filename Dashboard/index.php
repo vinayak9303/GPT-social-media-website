@@ -50,7 +50,7 @@ $total=mysqli_num_rows($total_result);
               <div class="inner">
                 <h3><?php echo $s11; ?></h3>
 
-                <p>11<sup>th</sup> Students</p>
+                <p>Sem III Students</p>
               </div>
               <div class="icon">
                 <i class="ion ion-person-add"></i>
@@ -65,7 +65,7 @@ $total=mysqli_num_rows($total_result);
               <div class="inner">
                 <h3><?php echo $s12; ?></sup></h3>
 
-                <p>12<sup>th</sup> Students</p>
+                <p>Sem IV Students</p>
               </div>
               <div class="icon">
                 <i class="ion ion-person-add"></i>
@@ -93,9 +93,9 @@ $total=mysqli_num_rows($total_result);
             <!-- small box -->
             <div class="small-box bg-danger">
               <div class="inner">
-                <h3>0</h3>
+                <h3>1</h3>
 
-                <p>Total Revenue</p>
+                <p>Total admin</p>
               </div>
               <div class="icon">
                 <i class="ion ion-pie-graph"></i>
@@ -302,25 +302,25 @@ $total=mysqli_num_rows($total_result);
                       <h5 class="mb-0"><b>Dashboard features:</b></h5>
                       <ul>
                         <li>
-                          <h6>It provides you with study materials like textbooks, Practical books, Reference books, Notes, Exercises, Model question papers in the form of PDF format.</h6>
+                          <h6>It provides you with study materials like textbooks, Manuals, Reference books, Notes, Exercises, Model question papers in the form of PDF format.</h6>
                         </li>
                         <li>
-                          <h6>HSC board previous Exam question Papers</h6>
+                          <h6>Previous Exam question Papers.</h6>
                         </li>
                         <li>
-                          <h6>Model Question Papers with answers</h6>
+                          <h6>Syllabus of the class.</h6>
                         </li>
                         <li>
-                          <h6>Model MCQ’s Papers & their answer keys</h6>
+                          <h6>Examination of the every Sem.</h6>
                         </li>
                         <li>
-                          <h6>Online MCQ Tests.</h6>
+                          <h6>Video lectures.</h6>
                         </li>
                         <li>
-                          <h6>MHTCET, NEET, JEE study materials, MOCK Tests, JEE Quizes.</h6>
+                          <h6>Every syllabus Notes.</h6>
                         </li>
                         <li>
-                          <h6>And last but not the least, Career guidance and counseling for all students.</h6>
+                          <h6>Reference books of the every subjects.</h6>
                         </li>
                       </ul>
                     </div>
@@ -343,55 +343,8 @@ $total=mysqli_num_rows($total_result);
   </div>
   <!-- /.content-wrapper -->
 
-  <footer class="main-footer">
-    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
-    All rights reserved.
-    <div class="float-right d-none d-sm-inline-block">
-      <b>Version</b> 3.1.0
-    </div>
-  </footer>
-
-  <!-- Control Sidebar -->
-  <aside class="control-sidebar control-sidebar-dark">
-    <!-- Control sidebar content goes here -->
-  </aside>
-  <!-- /.control-sidebar -->
-</div>
-<!-- ./wrapper -->
-
-<!-- jQuery -->
-<script src="plugins/jquery/jquery.min.js"></script>
-<!-- jQuery UI 1.11.4 -->
-<script src="plugins/jquery-ui/jquery-ui.min.js"></script>
-<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
-<script>
-  $.widget.bridge('uibutton', $.ui.button)
-</script>
-<!-- Bootstrap 4 -->
-<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-<!-- ChartJS -->
-<script src="plugins/chart.js/Chart.min.js"></script>
-<!-- Sparkline -->
-<script src="plugins/sparklines/sparkline.js"></script>
-<!-- JQVMap -->
-<script src="plugins/jqvmap/jquery.vmap.min.js"></script>
-<script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
-<!-- jQuery Knob Chart -->
-<script src="plugins/jquery-knob/jquery.knob.min.js"></script>
-<!-- daterangepicker -->
-<script src="plugins/moment/moment.min.js"></script>
-<script src="plugins/daterangepicker/daterangepicker.js"></script>
-<!-- Tempusdominus Bootstrap 4 -->
-<script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
-<!-- Summernote -->
-<script src="plugins/summernote/summernote-bs4.min.js"></script>
-<!-- overlayScrollbars -->
-<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
-<!-- AdminLTE App -->
-<script src="dist/js/adminlte.js"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="dist/js/demo.js"></script>
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="dist/js/pages/dashboard.js"></script>
+  <?php
+  include './partials/dash-footer.php'
+  ?>
 </body>
 </html>

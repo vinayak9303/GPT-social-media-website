@@ -17,8 +17,8 @@ else{
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MdEduChem | Dashboard</title>
-  <link rel="shortcut icon" href="./../images/logo.png" type="image/png">
+  <title>GPT | Dashboard</title>
+  <link rel="shortcut icon" href="./../images/logo.jpg" type="image/png">
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
@@ -176,9 +176,9 @@ else{
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="index.php" class="brand-link">
-      <img src="./../images/logo.png" alt="AdminLTE Logo" class="brand-image">
-      <span class="brand-text font-weight-light">MD EduChem</span>
+    <a href="./index.php" class="brand-link">
+      <img src="./../images/logo.jpg" alt="AdminLTE Logo" class="brand-image">
+      <span class="brand-text font-weight-light">GPT</span>
     </a>
 
     <!-- Sidebar -->
@@ -212,199 +212,177 @@ else{
                with font-awesome or any other icon font library -->
                <?php if($row3['user_role']==1 || $row3['course_id']!=2){?>
           <li class="nav-item">
-            <a href="./11thclassroom/" class="nav-link bg-primary">
+            <a href="./semIII/" class="nav-link bg-primary">
               <i class="nav-icon fas fa-user-graduate"></i>
               <p>
-                11<sup>th</sup> Classroom
+                sem III Classroom
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./11thclassroom/" class="nav-link">
+                <a href="./semIII/" class="nav-link">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Home</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./11thclassroom/syllabus.php" class="nav-link">
+                <a href="./semIII/syllabus.php" class="nav-link">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Syllabus</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./11thclassroom/textbooks.php" class="nav-link">
+                <a href="./semIII/textbooks.php" class="nav-link">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Textbook's</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./11thclassroom/practical-books.php" class="nav-link">
+                <a href="./semIII/manuals.php" class="nav-link">
                   <i class="fa fa-book nav-icon"></i>
-                  <p>Practical Books</p>
+                  <p>Manuals</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./11thclassroom/reference-books.php" class="nav-link">
+                <a href="./semIII/reference-books.php" class="nav-link">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Reference Books</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./11thclassroom/videos.php" class="nav-link">
+                <a href="./semIII/videos.php" class="nav-link">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Videos</p>
                 </a>
               </li>
-              <?php if($row3['user_role']==1){?>
               <li class="nav-item">
-                <a href="./11thclassroom/notes.php" class="nav-link">
+                <a href="./semIII/notes.php" class="nav-link">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Notes</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./11thclassroom/exercises.php" class="nav-link">
+                <a href="./semIII/assignments.php" class="nav-link">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Exercise</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./11thclassroom/examinations.php" class="nav-link">
+                <a href="./semIII/examinations.php" class="nav-link">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Examination</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="./11thclassroom/cet.php" class="nav-link">
-                  <i class="fa fa-book nav-icon"></i>
-                  <p>CET</p>
-                </a>
-              </li>
-            <?php }?>
-              <li class="nav-item">
-                <a href="./11thclassroom/career-guidance.php" class="nav-link">
-                  <i class="fa fa-book nav-icon"></i>
-                  <p>Carrer guidance</p>
                 </a>
               </li>
             </ul>
           </li>
         <?php } if($row3['user_role']==1 || $row3['course_id']!=1){?>
           <li class="nav-item">
-            <a href="./12thclassroom/" class="nav-link bg-primary">
+            <a href="./semIV/" class="nav-link bg-primary">
               <i class="nav-icon fas fa-user-graduate"></i>
               <p>
-                12<sup>th</sup> Classroom
+                semIV Classroom
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./12thclassroom/" class="nav-link">
+                <a href="./semIV/" class="nav-link">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Home</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./12thclassroom/syllabus.php" class="nav-link">
+                <a href="./semIV/syllabus.php" class="nav-link">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Syllabus</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./12thclassroom/textbooks.php" class="nav-link">
+                <a href="./semIV/textbooks.php" class="nav-link">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Textbook's</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./12thclassroom/practical-books.php" class="nav-link">
+                <a href="./semIV/manuals.php" class="nav-link">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Practical Books</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./12thclassroom/reference-books.php" class="nav-link">
+                <a href="./semIV/reference-books.php" class="nav-link">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Reference Books</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./12thclassroom/videos.php" class="nav-link">
+                <a href="./semIV/videos.php" class="nav-link">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Videos</p>
                 </a>
               </li>
-              <?php if($row3['user_role']==1){?>
               <li class="nav-item">
-                <a href="./12thclassroom/notes.php" class="nav-link">
+                <a href="./semIV/notes.php" class="nav-link">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Notes</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./12thclassroom/exercises.php" class="nav-link">
+                <a href="./semIV/assignments.php" class="nav-link">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Exercise</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./12thclassroom/examinations.php" class="nav-link">
+                <a href="./semIV/examinations.php" class="nav-link">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Examination</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="./12thclassroom/cet.php" class="nav-link">
-                  <i class="fa fa-book nav-icon"></i>
-                  <p>CET</p>
-                </a>
-              </li>
-            <?php } ?>
-              <li class="nav-item">
-                <a href="./12thclassroom/career-guidance.php" class="nav-link">
-                  <i class="fa fa-book nav-icon"></i>
-                  <p>Carrer guidance</p>
                 </a>
               </li>
             </ul>
           </li>
         <?php } if($row3['user_role']==1) {?>
           <li class="nav-item">
-            <a href="./uploadfile.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/uploadfile.php") { echo 'active'; } else{ echo 'ul';} ?>">
+            <a href="./uploadfile.php" class="nav-link <?php if($dirname =="/Gpt-social-media-website/Dashboard/uploadfile.php") { echo 'active'; } else{ echo 'ul';} ?>">
               <i class="fa fa-upload nav-icon"></i>
               <p>Upload Material</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="./uploadvideo.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/uploadvideo.php") { echo 'active'; } else{ echo 'ul';} ?>">
+            <a href="./uploadvideo.php" class="nav-link <?php if($dirname =="/Gpt-social-media-website/Dashboard/uploadvideo.php") { echo 'active'; } else{ echo 'ul';} ?>">
               <i class="fa fa-upload nav-icon"></i>
               <p>Upload Video</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="./post-notification.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/post-notification.php") { echo 'active'; } else{ echo 'ul';} ?>">
+            <a href="./post-notification.php" class="nav-link <?php if($dirname =="/Gpt-social-media-website/Dashboard/post-notification.php") { echo 'active'; } else{ echo 'ul';} ?>">
               <i class="fa fa-bell nav-icon"></i>
               <p>Post Notification</p>
             </a>
           </li>
           
           <li class="nav-item ">
-            <a href="./all-material.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/all-material.php") { echo 'active'; } else{ echo 'ul';} ?>">
+            <a href="./all-material.php" class="nav-link <?php if($dirname =="/Gpt-social-media-website/Dashboard/all-material.php") { echo 'active'; } else{ echo 'ul';} ?>">
               <i class="fa fa-book nav-icon"></i>
               <p>ALL Material</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="./students.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/students.php") { echo 'active'; } else{ echo 'ul';} ?>">
+            <a href="./students.php" class="nav-link <?php if($dirname =="/Gpt-social-media-website/Dashboard/students.php") { echo 'active'; } else{ echo 'ul';} ?>">
               <i class="fa fa-user nav-icon"></i>
               <p>Students</p>
             </a>
           </li>
+          <li class="nav-item">
+            <a href="./new-registeration.php" class="nav-link <?php if($dirname =="/Gpt-social-media-website/Dashboard/new-registeration.php") { echo 'active'; } else{ echo 'ul';} ?>">
+              <i class="fa fa-user nav-icon"></i>
+              <p>New Registeration</p>
+            </a>
+          </li>
         <?php } ?>
         <li class="nav-item">
-            <a href="./feedback.php" class="nav-link <?php if($dirname =="/MdEduChem/Dashboard/feedback.php") { echo 'active'; } else{ echo 'ul';} ?>">
+            <a href="./feedback.php" class="nav-link <?php if($dirname =="/Gpt-social-media-website/Dashboard/feedback.php") { echo 'active'; } else{ echo 'ul';} ?>">
               <i class="fa fa-comments nav-icon"></i>
               <p>Feedback</p>
             </a>
