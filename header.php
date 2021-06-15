@@ -39,10 +39,18 @@ else{
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title> GPT | <?php foreach($pages as $filename => $pageTitle) {
-      if ($filename == $currentPage)   
-      echo htmlspecialchars($pageTitle);
+    <title> GPT |  <?php 
+    $i=0; 
+    foreach($pages as $filename => $pageTitle) {
+      if ($filename == $currentPage)
+      {
+        $i=1;
+        echo htmlspecialchars($pageTitle);
+      }   
+      
       }
+      if($i!=1)
+        echo "Home";
       ?>
     </title>
     <meta charset="utf-8">
@@ -74,7 +82,7 @@ else{
     
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.php"><img src="images/logo.jpg" style="width: 40px;height: 40px" alt=""></img> G P Thane</a>
+      <a class="navbar-brand" href="index.php" style="color:black !important"><img src="images/logo.jpg" style="width: 40px;height: 40px" alt=""></img> G P Thane</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
@@ -105,7 +113,6 @@ else{
               <?php } else{ ?>
               <li class="nav-item cta"><a href="login.php" class="nav-link"><span>Log In</span></a></li>
               <?php } ?>  
-             
         </ul>
       </div>
     </div>

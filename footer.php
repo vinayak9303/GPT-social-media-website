@@ -20,8 +20,8 @@
                 <li><a href="index.php" class="py-2 d-block">Home</a></li>
                 <li><a href="about.php" class="py-2 d-block">About</a></li>
                 <li><a href="course.php" class="py-2 d-block">Courses</a></li>
+                <li><a href="teacher.php" class="py-2 d-block">Teacher</a></li>
                 <li><a href="event.php" class="py-2 d-block">Events</a></li>
-                <li><a href="https://vimeo.com/45830194" target="_blank" class="py-2 d-block">Video</a></li>
               </ul>
             </div>
           </div>
