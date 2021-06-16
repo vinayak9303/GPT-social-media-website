@@ -108,8 +108,9 @@ else{
             <?php }
             }
             if(isset($_SESSION['id'])){ ?>
-
-           <li class="nav-item dropdown nav-item cta"><a href="login.php" class="nav-link"><span>Hi, <?php echo substr($row3['name'], 0, 10); ?>...</span></a>
+            <li>
+            <ul class="navbar-nav ml-auto">
+             <li class="nav-item dropdown nav-item cta" style="margin-top:15px"><a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"><span>Hi, <?php echo substr($row3['name'], 0, 10); ?>...</span></a>
              <div class="dropdown-menu dropdown-menu-lg dropdown-menu-left">
               <div class="dropdown-divider"></div>
               <a href="Dashboard/profile.php" class="dropdown-item">
@@ -120,6 +121,7 @@ else{
                 <i class="fa fa-power-off"></i> LogOut
               </a>
               </div>
+            </ul>
             </li> 
               <?php } else{ ?>
               <li class="nav-item cta"><a href="login.php" class="nav-link"><span>Log In</span></a></li>
