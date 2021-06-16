@@ -82,7 +82,7 @@ else{
     
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.php" style="color:black !important"><img src="images/logo.jpg" style="width: 40px;height: 40px" alt=""></img> G P Thane</a>
+      <a class="navbar-brand" href="index.php"><img src="images/logo.jpg" style="width: 40px;height: 40px" alt=""></img> G P Thane</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
@@ -109,7 +109,18 @@ else{
             }
             if(isset($_SESSION['id'])){ ?>
 
-             <li class="nav-item"><a href="login.php" class="nav-link"><span>Hi, <?php echo substr($row3['name'], 0, 10); ?></span></a></li> 
+           <li class="nav-item dropdown nav-item cta"><a href="login.php" class="nav-link"><span>Hi, <?php echo substr($row3['name'], 0, 10); ?>...</span></a>
+             <div class="dropdown-menu dropdown-menu-lg dropdown-menu-left">
+              <div class="dropdown-divider"></div>
+              <a href="Dashboard/profile.php" class="dropdown-item">
+                <i class="fa fa-user"></i> My Profile
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="./logout.php" class="dropdown-item">
+                <i class="fa fa-power-off"></i> LogOut
+              </a>
+              </div>
+            </li> 
               <?php } else{ ?>
               <li class="nav-item cta"><a href="login.php" class="nav-link"><span>Log In</span></a></li>
               <?php } ?>  
