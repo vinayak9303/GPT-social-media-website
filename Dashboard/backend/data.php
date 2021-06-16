@@ -161,7 +161,7 @@ elseif ($type == "uploadvideo") {
     $month = date("F"); 
     $cdir=getcwd();
     $filename4="./../image/thambnail/video/".$year;
-    $filename5="./../image/thambnail/video/".$year."/".$month;
+    $filename5="./../image/thambnail/video/".$year."/".$month."/";
     $filename6="./../image/thambnail/video/".$year."/".$month."/";
 if(is_dir($filename4)){
       //$data = array("success" => 1);
@@ -174,6 +174,7 @@ if(is_dir($filename4)){
     }
 }else{
     mkdir($filename4,0777);
+    mkdir($filename5,0777);
     // $data = array("success" => 1);
 }
 
@@ -504,7 +505,7 @@ else if ($type == "fetch_feedback") {
     while($value= mysqli_fetch_assoc($result)) {
        // $data['data'][] = ["id" =>$i,"title" => $value['title'],"date" => $value['date'],"uid"=>$value['id']];
       $sql1="SELECT * FROM `class` Where id=".$value['course_id'];
-      $result1=mysqli_query($conn,$sql);
+      $result1=mysqli_query($conn,$sql1);
       $row=mysqli_fetch_array($result1);
       $data['data'][] = array($i,$value['name'],$row['name'],$value['description'],$value['date']);
       $i=$i+1;
