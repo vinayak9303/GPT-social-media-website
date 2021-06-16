@@ -110,7 +110,7 @@ else{
             if(isset($_SESSION['id'])){ ?>
             <li>
             <ul class="navbar-nav ml-auto">
-             <li class="nav-item dropdown nav-item cta" style="margin-top:15px; width: 175px;"><a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"><span>Hi, <?php echo substr($row3['name'], 0, 10); ?>...</span></a>
+             <li class="nav-item dropdown nav-item " style="margin-top:15px; width: 175px;"><a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"><span>Hi, <?php echo substr($row3['name'], 0, 10); ?>...</span></a>
              <div class="dropdown-menu dropdown-menu-lg dropdown-menu-left">
               <div class="dropdown-divider"></div>
               <a href="Dashboard/profile.php" class="dropdown-item">

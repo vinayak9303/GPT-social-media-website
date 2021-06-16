@@ -60,18 +60,10 @@
                  <div class="input-group-prepend">
                     <span class="input-group-text"> <i class="fa fa-user"></i> </span>
                  </div>
-                    <input name="" class="form-control" placeholder="john deo" type="text" name="name" id="name" required>
+                    <input class="form-control" placeholder="john deo" type="text" name="name" id="name" required>
                 </div> <!-- input-group.// -->
             </div> <!-- form-group// -->
-            <div class="form-group-sm">
-             <label>College name</label>
-                <div class="input-group">
-                 <div class="input-group-prepend">
-                    <span class="input-group-text"> <i class="fas fa-school"></i> </span>
-                 </div>
-                    <input name="" class="form-control" placeholder="GPT" type="text" name="cname" id="cname" required>
-                </div> <!-- input-group.// -->
-            </div> <!-- form-group// -->
+                    <input class="form-control" value="GPT" type="text" name="cname" id="cname" required hidden>
             <div class="form-group-sm">
              <label>Email-id</label>
               <div class="input-group">
