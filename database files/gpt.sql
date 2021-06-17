@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 15, 2021 at 09:46 PM
+-- Generation Time: Jun 17, 2021 at 07:13 AM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 7.4.15
 
@@ -88,7 +88,8 @@ INSERT INTO `feedback` (`id`, `user_id`, `description`, `date`) VALUES
 (1, 1, 'Welcome to the Md EduChem', '2021-06-06 09:55:59'),
 (2, 1, 'Welcome to the Md EduChem', '2021-06-06 09:58:09'),
 (3, 1, 'hello sir', '2021-06-15 18:38:53'),
-(4, 21, 'website 90% completed', '2021-06-15 21:24:39');
+(4, 21, 'website 90% completed', '2021-06-15 21:24:39'),
+(5, 21, 'hello ', '2021-06-16 16:06:43');
 
 -- --------------------------------------------------------
 
@@ -124,7 +125,9 @@ INSERT INTO `material` (`id`, `class_id`, `subject_id`, `category_id`, `material
 (40, 2, 1, 2, 'English', 'Dashboard/image/thambnail/2021/June/2202106121532.jpeg', 'material/2021/June/2202106121532.pdf'),
 (41, 2, 2, 3, 'testing 4', 'Dashboard/image/thambnail/2021/June/3202106010823.jpeg', 'material/2021/June/3202106010823.pdf'),
 (42, 1, 1, 1, 'OOP', 'Dashboard/image/thambnail/2021/June/1202106053143.jpeg', 'material/2021/June/1202106053143.pdf'),
-(43, 2, 6, 4, 'java', 'Dashboard/image/thambnail/2021/June/4202106063724.jpeg', 'material/2021/June/4202106063724.pdf');
+(43, 2, 6, 4, 'java', 'Dashboard/image/thambnail/2021/June/4202106063724.jpeg', 'material/2021/June/4202106063724.pdf'),
+(44, 1, 3, 6, 'demo', 'Dashboard/image/thambnail/2021/June/6202106041210.jpeg', 'material/2021/June/6202106041210.pdf'),
+(45, 1, 3, 5, 'demo', 'Dashboard/image/thambnail/video/2021/June/5202106042022.jpg', 'https://youtube.com');
 
 -- --------------------------------------------------------
 
@@ -144,7 +147,8 @@ CREATE TABLE `notifiacation` (
 
 INSERT INTO `notifiacation` (`id`, `title`, `date`) VALUES
 (23, 'Welcome to the GPT', '2021-06-15 18:50:17'),
-(24, 'Sem III and Sem IV classrooms are available', '2021-06-15 18:51:08');
+(24, 'Sem III and Sem IV classrooms are available', '2021-06-15 18:51:08'),
+(25, 'Project introduction meeting started', '2021-06-16 16:21:29');
 
 -- --------------------------------------------------------
 
@@ -202,7 +206,10 @@ INSERT INTO `users` (`id`, `name`, `email`, `college name`, `mobile`, `course_id
 (1, 'GODSE VINAYAK HARISHCHANDRA', 'VINAYAKGODSE97@GMAIL.COM', 'GPT', '9404846862', 1, 'c4ca4238a0b923820dcc509a6f75849b', '2021-06-04 19:31:09', '0', '1', '1'),
 (2, 'Vinayak Godse1', 'VINAYAKGODSE9@GMAIL.COM', 'GPT', '7028589303', 1, '202cb962ac59075b964b07152d234b70', '2021-06-04 20:00:13', '0', '2', '1'),
 (16, 'Vinayak Godse', 'vinayak.occinfotech@gmail.com', 'GPT', '7028589303', 2, 'c4ca4238a0b923820dcc509a6f75849b', '2021-06-06 21:15:46', '0', '2', '1'),
-(21, 'Harishchandra Ramchandra Godse', 'harishgodse973@gmail.com', 'GPT', '8779961334', 1, 'c4ca4238a0b923820dcc509a6f75849b', '2021-06-15 21:21:29', '0', '2', '1');
+(21, 'Harishchandra Ramchandra Godse', 'harishgodse973@gmail.com', 'GPT', '8779961334', 1, 'c4ca4238a0b923820dcc509a6f75849b', '2021-06-15 21:21:29', '0', '2', '1'),
+(22, 'Vinayak Godse', 'godsevinayak79@gmail.com', 'GPT', '7028589303', 1, 'c4ca4238a0b923820dcc509a6f75849b', '2021-06-16 15:45:59', '0', '2', '1'),
+(23, 'divya', 'divya20patil@gmail.com', 'GPT', '0123456789', 2, 'c20ad4d76fe97759aa27a0c99bff6710', '2021-06-16 16:24:02', '0', '2', '1'),
+(24, 'Divya', '20divyapatil@gmail.com', 'GPT', '0123456789', 2, 'c20ad4d76fe97759aa27a0c99bff6710', '2021-06-16 16:25:29', '0', '2', '1');
 
 --
 -- Indexes for dumped tables
@@ -270,19 +277,19 @@ ALTER TABLE `class`
 -- AUTO_INCREMENT for table `feedback`
 --
 ALTER TABLE `feedback`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `material`
 --
 ALTER TABLE `material`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=46;
 
 --
 -- AUTO_INCREMENT for table `notifiacation`
 --
 ALTER TABLE `notifiacation`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 
 --
 -- AUTO_INCREMENT for table `subjects`
@@ -294,7 +301,7 @@ ALTER TABLE `subjects`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
